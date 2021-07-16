@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.heyiki.top/about/index.html</loc>
+    
+    <lastmod>2021-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/comments/index.html</loc>
+    
+    <lastmod>2021-07-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/link/index.html</loc>
+    
+    <lastmod>2021-07-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.heyiki.top/posts/77868ba1.html</loc>
     
     <lastmod>2021-07-16</lastmod>
@@ -33,13 +54,6 @@
     <loc>https://www.heyiki.top/daodao/index.html</loc>
     
     <lastmod>2021-07-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/about/index.html</loc>
-    
-    <lastmod>2021-07-15</lastmod>
     
   </url>
   
@@ -96,13 +110,6 @@
     <loc>https://www.heyiki.top/posts/1c29d3e3.html</loc>
     
     <lastmod>2021-04-02</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/link/index.html</loc>
-    
-    <lastmod>2021-04-01</lastmod>
     
   </url>
   
@@ -396,20 +403,6 @@
 
   
   <url>
-    <loc>https://www.heyiki.top/tags/Hexo/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/tags/%E5%8F%A8%E5%8F%A8/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.heyiki.top/tags/Ajax/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
@@ -418,6 +411,20 @@
   
   <url>
     <loc>https://www.heyiki.top/tags/PHP/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/tags/Hexo/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/tags/%E5%8F%A8%E5%8F%A8/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -508,14 +515,14 @@
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/tags/Mysql/</loc>
+    <loc>https://www.heyiki.top/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
+    <loc>https://www.heyiki.top/tags/Mysql/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -606,6 +613,20 @@
   </url>
   
   <url>
+    <loc>https://www.heyiki.top/tags/Guzzle/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/tags/HTTP/</loc>
+    <lastmod>2021-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.heyiki.top/tags/%E5%AE%9D%E5%A1%94/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
@@ -628,20 +649,6 @@
   
   <url>
     <loc>https://www.heyiki.top/tags/CONDING/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/tags/Guzzle/</loc>
-    <lastmod>2021-07-16</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/tags/HTTP/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -727,14 +734,14 @@
 
   
   <url>
-    <loc>https://www.heyiki.top/categories/Hexo/</loc>
+    <loc>https://www.heyiki.top/categories/PHP/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/categories/PHP/</loc>
+    <loc>https://www.heyiki.top/categories/Hexo/</loc>
     <lastmod>2021-07-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
