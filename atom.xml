@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Heyiki&#39;s Blog</title>
+  <icon>https://www.heyiki.top/icon.png</icon>
+  <subtitle>我的个人博客</subtitle>
+  <link href="https://www.heyiki.top/atom.xml" rel="self"/>
+  
+  <link href="https://www.heyiki.top/"/>
+  <updated>2022-09-10T09:57:40.000Z</updated>
+  <id>https://www.heyiki.top/</id>
+  
+  <author>
+    <name>Heyiki</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>golang处理emoji表情转码解码</title>
+    <link href="https://www.heyiki.top/posts/374365d7.html"/>
+    <id>https://www.heyiki.top/posts/374365d7.html</id>
+    <published>2022-09-10T09:57:40.000Z</published>
+    <updated>2022-09-10T09:57:40.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;golang处理emoji表情转码解码&quot;&gt;&lt;a href=&quot;#golang处理emoji表情转码解码&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://www.heyiki.top/categories/Go/"/>
+    
+    
+    <category term="Go" scheme="https://www.heyiki.top/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wps专业版激活终身授权</title>
+    <link href="https://www.heyiki.top/posts/2a5073c4.html"/>
+    <id>https://www.heyiki.top/posts/2a5073c4.html</id>
+    <published>2021-07-10T04:33:14.000Z</published>
+    <updated>2021-07-10T04:33:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;WPS专业版激活终身授权&quot;&gt;&lt;a href=&quot;#WPS专业版激活终身授权&quot; class=&quot;headerlink&quot; title=&quot;WPS专业版激活终身授权&quot;&gt;&lt;/a&gt;WPS专业版激活终身授权&lt;/h4&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="WPS" scheme="https://www.heyiki.top/categories/WPS/"/>
+    
+    
+    <category term="WPS" scheme="https://www.heyiki.top/tags/WPS/"/>
+    
+    <category term="终身授权" scheme="https://www.heyiki.top/tags/%E7%BB%88%E8%BA%AB%E6%8E%88%E6%9D%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宝塔Linux面板-安装golang环境</title>
+    <link href="https://www.heyiki.top/posts/ae24e9bf.html"/>
+    <id>https://www.heyiki.top/posts/ae24e9bf.html</id>
+    <published>2021-06-29T14:51:14.000Z</published>
+    <updated>2022-09-10T09:32:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;获取go安装包&quot;&gt;&lt;a href=&quot;#获取go安装包&quot; class=&quot;headerlink&quot; title=&quot;获取go安装包&quot;&gt;&lt;/a&gt;获取go安装包&lt;/h4&gt;&lt;p&gt;官网：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Go" scheme="https://www.heyiki.top/categories/Go/"/>
+    
+    
+    <category term="Linux" scheme="https://www.heyiki.top/tags/Linux/"/>
+    
+    <category term="Go" scheme="https://www.heyiki.top/tags/Go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TP6+Swoole配置使用</title>
+    <link href="https://www.heyiki.top/posts/71660b7e.html"/>
+    <id>https://www.heyiki.top/posts/71660b7e.html</id>
+    <published>2021-06-28T13:36:40.000Z</published>
+    <updated>2021-06-28T13:36:40.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;由于当前使用&lt;code&gt;php7.2版本&lt;/code&gt;，默认使用&lt;code&gt;composer&lt;/code&gt;安装&lt;code&gt;swoole&lt;/code&gt;的时候会自动安装&lt;code&gt;3.x&lt;/code&gt;版本。&lt;/p&gt;
+&lt;p&gt;服务器的扩展安装这里不介绍，另</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="Swoole" scheme="https://www.heyiki.top/tags/Swoole/"/>
+    
+    <category term="ThinkPHP6" scheme="https://www.heyiki.top/tags/ThinkPHP6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文件排他锁解决小型并发</title>
+    <link href="https://www.heyiki.top/posts/955aadbe.html"/>
+    <id>https://www.heyiki.top/posts/955aadbe.html</id>
+    <published>2021-06-17T04:25:14.000Z</published>
+    <updated>2021-06-17T04:25:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;众所周知，并发容易造成数据重复处理或者商品超卖等等情况；</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="排他锁" scheme="https://www.heyiki.top/tags/%E6%8E%92%E4%BB%96%E9%94%81/"/>
+    
+    <category term="并发" scheme="https://www.heyiki.top/tags/%E5%B9%B6%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Navicat备份数据库出现 show_compatibility_56 相关错误</title>
+    <link href="https://www.heyiki.top/posts/ab7eafc8.html"/>
+    <id>https://www.heyiki.top/posts/ab7eafc8.html</id>
+    <published>2021-06-03T15:56:36.000Z</published>
+    <updated>2021-06-03T15:56:36.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;数据库备份错误问题&quot;&gt;&lt;a href=&quot;#数据库备份错误问题&quot; class=&quot;headerlink&quot; title=&quot;数据库备份错误问题&quot;&gt;&lt;/a&gt;数据库备份错误问题&lt;/h4&gt;&lt;p&gt;备份数据库出现：&lt;code&gt;3167 - The</summary>
+        
+      
+    
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决MySQL5.7.5及以上group by报错的问题</title>
+    <link href="https://www.heyiki.top/posts/36e17204.html"/>
+    <id>https://www.heyiki.top/posts/36e17204.html</id>
+    <published>2021-05-21T13:55:00.000Z</published>
+    <updated>2021-05-21T13:55:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;MySQL5-7-5及以上-group-by-报错问题&quot;&gt;&lt;a href=&quot;#MySQL5-7-5及以上-group-by-报错问题&quot; class=&quot;headerlink&quot; title=&quot;MySQL5.7.5及以上 group by</summary>
+        
+      
+    
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP:curl error 60:SSL certificate unable to get local issuer certificate</title>
+    <link href="https://www.heyiki.top/posts/1c29d3e3.html"/>
+    <id>https://www.heyiki.top/posts/1c29d3e3.html</id>
+    <published>2021-04-02T16:14:22.000Z</published>
+    <updated>2021-04-02T16:14:22.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;接口请求报错：PHP：cURL error 60: SSL certificate unable to get local issuer certificate</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="CURL" scheme="https://www.heyiki.top/tags/CURL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo Buffterfly主题增加叨叨点啥</title>
+    <link href="https://www.heyiki.top/posts/c66dcdf5.html"/>
+    <id>https://www.heyiki.top/posts/c66dcdf5.html</id>
+    <published>2021-03-30T14:09:13.000Z</published>
+    <updated>2021-04-14T14:11:13.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;Q：什么是叨叨点啥？跟哔哔点啥又有什么关系？&lt;br&gt;A：叨叨是 &lt;del&gt;盗版&lt;/del&gt; 效仿版</summary>
+        
+      
+    
+    
+    
+    <category term="Hexo" scheme="https://www.heyiki.top/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="https://www.heyiki.top/tags/Hexo/"/>
+    
+    <category term="叨叨" scheme="https://www.heyiki.top/tags/%E5%8F%A8%E5%8F%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>腾讯云直播配置</title>
+    <link href="https://www.heyiki.top/posts/6dc66cce.html"/>
+    <id>https://www.heyiki.top/posts/6dc66cce.html</id>
+    <published>2021-03-29T15:32:14.000Z</published>
+    <updated>2021-03-29T15:32:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="直播" scheme="https://www.heyiki.top/tags/%E7%9B%B4%E6%92%AD/"/>
+    
+    <category term="腾讯云直播" scheme="https://www.heyiki.top/tags/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9B%B4%E6%92%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宝塔使用webhook实现conding代码自动部署</title>
+    <link href="https://www.heyiki.top/posts/fba3a87a.html"/>
+    <id>https://www.heyiki.top/posts/fba3a87a.html</id>
+    <published>2021-03-27T15:39:27.000Z</published>
+    <updated>2021-03-27T15:39:27.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;安装和配置WebHook&quot;&gt;&lt;a href=&quot;#安装和配置WebHook&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="WebHook" scheme="https://www.heyiki.top/categories/WebHook/"/>
+    
+    
+    <category term="宝塔" scheme="https://www.heyiki.top/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="WebHook" scheme="https://www.heyiki.top/tags/WebHook/"/>
+    
+    <category term="自动部署" scheme="https://www.heyiki.top/tags/%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="CONDING" scheme="https://www.heyiki.top/tags/CONDING/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决 GitHub 访问不了</title>
+    <link href="https://www.heyiki.top/posts/77868ba1.html"/>
+    <id>https://www.heyiki.top/posts/77868ba1.html</id>
+    <published>2021-03-27T12:31:17.000Z</published>
+    <updated>2022-05-29T14:19:52.799Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;GitHub是一个面向开源及私有软件项目的托管平台，我们可以寻找大佬们开源的代码以及部署个人的代码。&lt;/p&gt;
+&lt;p&gt;最近Github时常无法访问，也不是网络的原因，这让人有点烦恼，最后在网上找了一些解决方法，如下操作（windows系统为例子）：&lt;</summary>
+        
+      
+    
+    
+    
+    <category term="Git" scheme="https://www.heyiki.top/categories/Git/"/>
+    
+    
+    <category term="Github" scheme="https://www.heyiki.top/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Guzzle执行HTTP请求</title>
+    <link href="https://www.heyiki.top/posts/592498db.html"/>
+    <id>https://www.heyiki.top/posts/592498db.html</id>
+    <published>2021-03-09T12:36:43.000Z</published>
+    <updated>2021-03-09T12:36:43.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;由于最近对第三方api需求量高的原因，不同的api对于curl请求稍微有点出入，而且多了显得代码冗余，为了整合统一请求调用，就开始使用Guzzle。&lt;/p&gt;
+&lt;h3 id=&quot;Guzzle介绍&quot;&gt;&lt;a href=&quot;#Guzzle介绍&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="Guzzle" scheme="https://www.heyiki.top/tags/Guzzle/"/>
+    
+    <category term="HTTP" scheme="https://www.heyiki.top/tags/HTTP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JWT -- JSON WEB TOKEN</title>
+    <link href="https://www.heyiki.top/posts/630da3d8.html"/>
+    <id>https://www.heyiki.top/posts/630da3d8.html</id>
+    <published>2021-03-06T17:23:23.000Z</published>
+    <updated>2021-03-06T17:23:23.000Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;什么是JWT&quot;&gt;&lt;a href=&quot;#什么是JWT&quot; class=&quot;headerlink&quot; title=&quot;什么是JWT&quot;&gt;&lt;/a&gt;什么是JWT&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://jwt.io/introduction&quot;&gt;JWT官网&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;JSON Web Token（JWT）是一个开放标准（RFC 7519），该token被设计为紧凑且安全的，特别适用于分布式站点的单点登录（SSO）场景。JWT的声明一般被用来在身份提供者和服务提供者间传递被认证的用户身份信息，以便于从资源服务器获取资源，也可以增加一些额外的其它业务逻辑所必须的声明信息，该token也可直接被用于认证，也可被加密。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="JWT" scheme="https://www.heyiki.top/categories/JWT/"/>
+    
+    
+    <category term="JWT" scheme="https://www.heyiki.top/tags/JWT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL数据库为utf8mb4编码仍然无法保存表情符号的问题</title>
+    <link href="https://www.heyiki.top/posts/8c25726d.html"/>
+    <id>https://www.heyiki.top/posts/8c25726d.html</id>
+    <published>2021-02-13T14:47:16.000Z</published>
+    <updated>2021-02-13T14:47:16.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解决方案&quot; class=&quot;headerlink&quot; title=&quot;解决方案&quot;&gt;&lt;/a&gt;解决方案&lt;/h2&gt;&lt;p&gt;修改MySQL配置文件&lt;/p&gt;
+&lt;p&gt;修改mysql配置文件my.cnf（windows为my.ini）</summary>
+        
+      
+    
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
+    
+    
+    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
+    
+    <category term="表情符号" scheme="https://www.heyiki.top/tags/%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>TP6+消息队列</title>
+    <link href="https://www.heyiki.top/posts/fcf584c9.html"/>
+    <id>https://www.heyiki.top/posts/fcf584c9.html</id>
+    <published>2021-01-16T14:55:15.000Z</published>
+    <updated>2021-01-16T14:55:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;PHP消息队列&quot;&gt;&lt;a href=&quot;#PHP消息队列&quot; class=&quot;headerlink&quot; title=&quot;PHP消息队列&quot;&gt;&lt;/a&gt;PHP消息队列&lt;/h2&gt;&lt;h3 id=&quot;1、消息队列概念&quot;&gt;&lt;a href=&quot;#1、消息队列概念&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="消息队列" scheme="https://www.heyiki.top/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP使用phpword生成word文档</title>
+    <link href="https://www.heyiki.top/posts/fcf0425b.html"/>
+    <id>https://www.heyiki.top/posts/fcf0425b.html</id>
+    <published>2020-09-08T13:16:15.000Z</published>
+    <updated>2020-09-08T13:16:15.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;话不多说，直接开干&quot;&gt;&lt;a href=&quot;#话不多说，直接开干&quot; class=&quot;headerlink&quot; title=&quot;话不多说，直接开干&quot;&gt;&lt;/a&gt;话不多说，直接开干&lt;/h2&gt;&lt;h3 id=&quot;1、composer安装phpword包&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="phpword" scheme="https://www.heyiki.top/tags/phpword/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP常用第三方插件</title>
+    <link href="https://www.heyiki.top/posts/10c2fd32.html"/>
+    <id>https://www.heyiki.top/posts/10c2fd32.html</id>
+    <published>2020-07-22T14:51:42.000Z</published>
+    <updated>2020-07-22T14:51:42.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;PHP常用第三方插件&quot;&gt;&lt;a href=&quot;#PHP常用第三方插件&quot; class=&quot;headerlink&quot; title=&quot;PHP常用第三方插件&quot;&gt;&lt;/a&gt;PHP常用第三方插件&lt;/h3&gt;&lt;p&gt;微信开发 (现在一般PHP7.2 +</summary>
+        
+      
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇聚支付</title>
+    <link href="https://www.heyiki.top/posts/b5fb38fc.html"/>
+    <id>https://www.heyiki.top/posts/b5fb38fc.html</id>
+    <published>2020-07-12T09:13:43.000Z</published>
+    <updated>2020-07-12T09:13:43.000Z</updated>
+    
+    
+    <summary type="html">这里有东西被加密了，需要输入密码查看哦。</summary>
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="支付" scheme="https://www.heyiki.top/tags/%E6%94%AF%E4%BB%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PHP接入微信支付和支付宝支付</title>
+    <link href="https://www.heyiki.top/posts/eeeb8457.html"/>
+    <id>https://www.heyiki.top/posts/eeeb8457.html</id>
+    <published>2020-07-12T07:45:43.000Z</published>
+    <updated>2020-07-12T07:45:43.000Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;支付工具包&quot;&gt;&lt;a href=&quot;#支付工具包&quot; class=&quot;headerlink&quot; title=&quot;支付工具包&quot;&gt;&lt;/a&gt;支付工具包&lt;/h3&gt;&lt;p&gt;官方文档：&lt;a href=&quot;https://github.com/yansongda/pay&quot;&gt;yansongda&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.huangzhongxin.cn/index.php/2020/06/27/php%e5%bf%ab%e9%80%9f%e6%8e%a5%e5%85%a5%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98%e5%92%8c%e6%94%af%e4%bb%98%e5%ae%9d%e6%94%af%e4%bb%98/&quot;&gt;原文地址&lt;/a&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;安装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;composer require yansongda/pay -vvv&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;引入&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;use Yansongda\Pay\Pay;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="支付" scheme="https://www.heyiki.top/tags/%E6%94%AF%E4%BB%98/"/>
+    
+  </entry>
+  
+</feed>
