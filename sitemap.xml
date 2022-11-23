@@ -119,18 +119,18 @@
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/posts/ae24e9bf.html</loc>
+    <loc>https://www.heyiki.top/posts/2a5073c4.html</loc>
     
-    <lastmod>2022-09-10</lastmod>
+    <lastmod>2021-07-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/posts/2a5073c4.html</loc>
+    <loc>https://www.heyiki.top/posts/ae24e9bf.html</loc>
     
-    <lastmod>2021-07-10</lastmod>
+    <lastmod>2021-06-29</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -742,13 +742,6 @@
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/tags/Go/</loc>
-    <lastmod>2022-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.heyiki.top/tags/%E6%8E%92%E4%BB%96%E9%94%81/</loc>
     <lastmod>2022-11-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -899,13 +892,6 @@
   
   <url>
     <loc>https://www.heyiki.top/categories/WebHook/</loc>
-    <lastmod>2022-11-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/categories/Go/</loc>
     <lastmod>2022-11-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
