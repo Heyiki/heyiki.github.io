@@ -46,33 +46,6 @@
   </entry>
   
   <entry>
-    <title>Golang多版本管理工具gvm/g</title>
-    <link href="https://www.heyiki.top/posts/pb9eqboy.html"/>
-    <id>https://www.heyiki.top/posts/pb9eqboy.html</id>
-    <published>2022-11-23T15:12:46.000Z</published>
-    <updated>2022-11-23T15:29:04.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;安装包下载地址&quot;&gt;&lt;a href=&quot;#安装包下载地址&quot; class=&quot;headerlink&quot; title=&quot;安装包下载地址&quot;&gt;&lt;/a&gt;安装包下载地址&lt;/h3&gt;&lt;p&gt;1.gitee上的gvm：&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
-    <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
-    <category term="版本管理" scheme="https://www.heyiki.top/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
-    
-  </entry>
-  
-  <entry>
     <title>golang处理emoji表情转码解码</title>
     <link href="https://www.heyiki.top/posts/374365d7.html"/>
     <id>https://www.heyiki.top/posts/374365d7.html</id>
@@ -379,7 +352,7 @@
     <link href="https://www.heyiki.top/posts/77868ba1.html"/>
     <id>https://www.heyiki.top/posts/77868ba1.html</id>
     <published>2021-03-27T20:31:17.000Z</published>
-    <updated>2022-11-23T07:41:52.699Z</updated>
+    <updated>2022-11-23T07:42:55.150Z</updated>
     
     
       
@@ -555,6 +528,27 @@
     
     
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇聚支付</title>
+    <link href="https://www.heyiki.top/posts/b5fb38fc.html"/>
+    <id>https://www.heyiki.top/posts/b5fb38fc.html</id>
+    <published>2020-07-12T17:13:43.000Z</published>
+    <updated>2020-07-12T17:13:43.000Z</updated>
+    
+    
+    <summary type="html">这里有东西被加密了，需要输入密码查看哦。</summary>
+    
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
+    
+    
+    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
+    
+    <category term="支付" scheme="https://www.heyiki.top/tags/%E6%94%AF%E4%BB%98/"/>
     
   </entry>
   
