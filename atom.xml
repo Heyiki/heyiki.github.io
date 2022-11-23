@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2022-09-10T17:57:40.000Z</updated>
+  <updated>2022-11-23T15:12:44.000Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://www.heyiki.top/posts/0.html"/>
+    <id>https://www.heyiki.top/posts/0.html</id>
+    <published>2022-11-23T15:12:46.000Z</published>
+    <updated>2022-11-23T15:12:44.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Golang多版本管理工具gvm-g&quot;&gt;&lt;a href=&quot;#Golang多版本管理工具gvm-g&quot; class=&quot;headerlink&quot; title=&quot;Golang多版本管理工具gvm/g&quot;&gt;&lt;/a&gt;Golang多版本管理工具gvm/g&lt;/h1&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
+    
+    <category term="版本管理" scheme="https://www.heyiki.top/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
   
   <entry>
     <title>golang处理emoji表情转码解码</title>
@@ -323,7 +350,7 @@
     <link href="https://www.heyiki.top/posts/77868ba1.html"/>
     <id>https://www.heyiki.top/posts/77868ba1.html</id>
     <published>2021-03-27T20:31:17.000Z</published>
-    <updated>2022-11-23T07:12:51.059Z</updated>
+    <updated>2022-11-23T07:20:24.220Z</updated>
     
     
       
@@ -511,29 +538,6 @@
     
     
     <summary type="html">这里有东西被加密了，需要输入密码查看哦。</summary>
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="支付" scheme="https://www.heyiki.top/tags/%E6%94%AF%E4%BB%98/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PHP接入微信支付和支付宝支付</title>
-    <link href="https://www.heyiki.top/posts/eeeb8457.html"/>
-    <id>https://www.heyiki.top/posts/eeeb8457.html</id>
-    <published>2020-07-12T15:45:43.000Z</published>
-    <updated>2020-07-12T15:45:43.000Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;支付工具包&quot;&gt;&lt;a href=&quot;#支付工具包&quot; class=&quot;headerlink&quot; title=&quot;支付工具包&quot;&gt;&lt;/a&gt;支付工具包&lt;/h3&gt;&lt;p&gt;官方文档：&lt;a href=&quot;https://github.com/yansongda/pay&quot;&gt;yansongda&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.huangzhongxin.cn/index.php/2020/06/27/php%e5%bf%ab%e9%80%9f%e6%8e%a5%e5%85%a5%e5%be%ae%e4%bf%a1%e6%94%af%e4%bb%98%e5%92%8c%e6%94%af%e4%bb%98%e5%ae%9d%e6%94%af%e4%bb%98/&quot;&gt;原文地址&lt;/a&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;安装&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;composer require yansongda/pay -vvv&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;引入&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;use Yansongda\Pay\Pay;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
     
     
     

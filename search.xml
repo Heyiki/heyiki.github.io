@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title></title>
+      <link href="/posts/0.html"/>
+      <url>/posts/0.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Golang多版本管理工具gvm-g"><a href="#Golang多版本管理工具gvm-g" class="headerlink" title="Golang多版本管理工具gvm/g"></a>Golang多版本管理工具gvm/g</h1><h3 id="安装包下载地址"><a href="#安装包下载地址" class="headerlink" title="安装包下载地址"></a>安装包下载地址</h3><p>1.gitee上的gvm：<a href="https://gitee.com/voidint/gvm/releases">gvm 发行版 - Gitee.com</a></p><p>2.github上的g：<a href="https://github.com/voidint/g/releases">Releases · voidint/g · GitHub</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Golang </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Golang </tag>
+            
+            <tag> 版本管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>golang处理emoji表情转码解码</title>
       <link href="/posts/374365d7.html"/>
       <url>/posts/374365d7.html</url>
