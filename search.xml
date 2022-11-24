@@ -218,11 +218,11 @@
     
     
     <entry>
-      <title>PHP:curl error 60:SSL certificate unable to get local issuer certificate</title>
+      <title>PHP:curl error 60:SSL 的错误解决方法</title>
       <link href="/posts/1c29d3e3.html"/>
       <url>/posts/1c29d3e3.html</url>
       
-        <content type="html"><![CDATA[<p>接口请求报错：PHP：cURL error 60: SSL certificate unable to get local issuer certificate 是由于没有在<code>php.ini</code>配置<code>curl.cainfo</code></p><p>解决方法如下：</p><ol><li>下载cacert.pem</li></ol><p><a href="https://curl.haxx.se/ca/cacert.pem">cacert.pem下载链接</a></p><p>将文件放置对应PHP版本目录中</p><ol><li>配置php.ini</li></ol><p>打开对应PHP版本的php.ini，搜索<code>curl.cainfo</code>，将前面的 <code>;</code> 删掉，在后面加上cacert.pem所在的<strong>绝对路径</strong>。</p><p>例子：<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[curl]</span><br><span class="line">; A default value for the CURLOPT_CAINFO option. This is required to be an</span><br><span class="line">; absolute path.</span><br><span class="line">curl.cainfo =  D:\phpstudy_pro\Extensions\php\php7.2.9nts\cacert.pem</span><br></pre></td></tr></table></figure></p>]]></content>
+        <content type="html"><![CDATA[<p>接口请求报错：PHP：cURL error 60: SSL certificate unable to get local issuer certificate 是由于没有在<code>php.ini</code>配置<code>curl.cainfo</code></p><p>解决方法如下：</p><ol><li>下载cacert.pem</li></ol><p><a href="https://curl.haxx.se/ca/cacert.pem">cacert.pem下载链接</a></p><p>将文件放置对应PHP版本目录中</p><ol><li>配置php.ini</li></ol><p>打开对应PHP版本的php.ini，搜索<code>curl.cainfo</code>，将前面的 <code>;</code> 删掉，在后面加上cacert.pem所在的<strong>绝对路径</strong>。</p><p>例子：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[curl]</span><br><span class="line">; A default value for the CURLOPT_CAINFO option. This is required to be an</span><br><span class="line">; absolute path.</span><br><span class="line">curl.cainfo =  D:\phpstudy_pro\Extensions\php\php7.2.9nts\cacert.pem</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
