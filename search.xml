@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>异步加载js的方式</title>
+      <link href="/posts/d6ed8f1b.html"/>
+      <url>/posts/d6ed8f1b.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="异步加载js的三种方式"><a href="#异步加载js的三种方式" class="headerlink" title="异步加载js的三种方式"></a>异步加载js的三种方式</h3><h4 id="1-defer-异步加载"><a href="#1-defer-异步加载" class="headerlink" title="1.defer 异步加载"></a>1.defer 异步加载</h4><blockquote><p>特点 ：只有IE适用，需等到dom文档全部解析完（dom树生成完，才会被执行）</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span> src=<span class="string">&quot;xxx.js&quot;</span> defer&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><h4 id="2-async异步加载"><a href="#2-async异步加载" class="headerlink" title="2.async异步加载"></a>2.async异步加载</h4><blockquote><p>特点：加载完就执行，async 只能加载外部脚本，不能把js代码写在script标签里</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=<span class="string">&quot;text/javascript&quot;</span> src=<span class="string">&quot;xxx.js&quot;</span> <span class="keyword">async</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><h4 id="3-动态创建script标签"><a href="#3-动态创建script标签" class="headerlink" title="3.动态创建script标签"></a>3.动态创建script标签</h4><blockquote><p>特点：避免HTML文件过大，提高页面加载速度</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 异步加载js，通过加载完成js之后，再执行callback方法</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> <span class="variable">url</span></span></span><br><span class="line"><span class="comment"> * <span class="doctag">@param</span> <span class="variable">callback</span></span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">function</span> <span class="title function_">loadScript</span>(<span class="params">url,callback</span>)&#123;</span><br><span class="line">  <span class="keyword">const</span> script = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;script&#x27;</span>);</span><br><span class="line">  script.<span class="property">type</span> = <span class="string">&quot;text/javascript&quot;</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">if</span>(script.<span class="property">readyState</span>)&#123; <span class="comment">//IE</span></span><br><span class="line">    script.<span class="property">onreadestatechange</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="keyword">if</span>(script.<span class="property">readyState</span> === <span class="string">&quot;loaded&quot;</span> || script.<span class="property">readyState</span> === <span class="string">&quot;complete&quot;</span>)&#123;</span><br><span class="line">        <span class="title function_">callback</span>()</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    script.<span class="property">onload</span> = <span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">      <span class="title function_">callback</span>()</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  script.<span class="property">src</span> = url; <span class="comment">//放这里 防止事件还没绑定 url加载完了 就不会执行 callback</span></span><br><span class="line">  <span class="variable language_">document</span>.<span class="property">head</span>.<span class="title function_">appendChild</span>(script);<span class="comment">//开始执行</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Javascript </tag>
+            
+            <tag> 异步加载 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>golang使用结构标签启用具有默认值的结构</title>
       <link href="/posts/3f9ead7c.html"/>
       <url>/posts/3f9ead7c.html</url>

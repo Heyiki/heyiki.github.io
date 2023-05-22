@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2023-05-22T14:30:20.628Z</updated>
+  <updated>2023-05-22T15:08:04.567Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>异步加载js的方式</title>
+    <link href="https://www.heyiki.top/posts/d6ed8f1b.html"/>
+    <id>https://www.heyiki.top/posts/d6ed8f1b.html</id>
+    <published>2023-05-22T14:35:28.441Z</published>
+    <updated>2023-05-22T15:08:04.567Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;异步加载js的三种方式&quot;&gt;&lt;a href=&quot;#异步加载js的三种方式&quot; class=&quot;headerlink&quot; title=&quot;异步加载js的三种方式&quot;&gt;&lt;/a&gt;异步加载js的三种方式&lt;/h3&gt;&lt;h4 id=&quot;1-defer-异步加载&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="前端" scheme="https://www.heyiki.top/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="Javascript" scheme="https://www.heyiki.top/tags/Javascript/"/>
+    
+    <category term="异步加载" scheme="https://www.heyiki.top/tags/%E5%BC%82%E6%AD%A5%E5%8A%A0%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>golang使用结构标签启用具有默认值的结构</title>
     <link href="https://www.heyiki.top/posts/3f9ead7c.html"/>
     <id>https://www.heyiki.top/posts/3f9ead7c.html</id>
     <published>2023-05-22T14:27:18.588Z</published>
-    <updated>2023-05-22T14:30:20.628Z</updated>
+    <updated>2023-05-22T15:08:04.563Z</updated>
     
     
       
@@ -49,7 +76,7 @@
     <link href="https://www.heyiki.top/posts/755254ec.html"/>
     <id>https://www.heyiki.top/posts/755254ec.html</id>
     <published>2023-05-22T14:18:18.691Z</published>
-    <updated>2023-05-22T14:30:20.636Z</updated>
+    <updated>2023-05-22T15:08:04.567Z</updated>
     
     
       
@@ -412,7 +439,7 @@
     <link href="https://www.heyiki.top/posts/77868ba1.html"/>
     <id>https://www.heyiki.top/posts/77868ba1.html</id>
     <published>2021-03-27T20:31:17.000Z</published>
-    <updated>2023-05-22T14:30:20.636Z</updated>
+    <updated>2023-05-22T15:08:04.567Z</updated>
     
     
       
@@ -536,33 +563,6 @@
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
     
     <category term="消息队列" scheme="https://www.heyiki.top/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PHP使用phpword生成word文档</title>
-    <link href="https://www.heyiki.top/posts/fcf0425b.html"/>
-    <id>https://www.heyiki.top/posts/fcf0425b.html</id>
-    <published>2020-09-08T21:16:15.000Z</published>
-    <updated>2020-09-08T21:16:15.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;话不多说，直接开干&quot;&gt;&lt;a href=&quot;#话不多说，直接开干&quot; class=&quot;headerlink&quot; title=&quot;话不多说，直接开干&quot;&gt;&lt;/a&gt;话不多说，直接开干&lt;/h2&gt;&lt;h3 id=&quot;1、composer安装phpword包&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="phpword" scheme="https://www.heyiki.top/tags/phpword/"/>
     
   </entry>
   
