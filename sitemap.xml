@@ -29,15 +29,6 @@
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/posts/11560a5d.html</loc>
-    
-    <lastmod>2023-05-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.heyiki.top/posts/96f75afa.html</loc>
     
     <lastmod>2023-05-22</lastmod>
@@ -65,15 +56,6 @@
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/posts/7a6a6b5a.html</loc>
-    
-    <lastmod>2023-05-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.heyiki.top/categories/index.html</loc>
     
     <lastmod>2023-05-22</lastmod>
@@ -93,6 +75,33 @@
   
   <url>
     <loc>https://www.heyiki.top/tags/index.html</loc>
+    
+    <lastmod>2023-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/posts/3f9ead7c.html</loc>
+    
+    <lastmod>2023-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/posts/11560a5d.html</loc>
+    
+    <lastmod>2023-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/posts/7a6a6b5a.html</loc>
     
     <lastmod>2023-05-22</lastmod>
     
@@ -681,6 +690,13 @@
   
   <url>
     <loc>https://www.heyiki.top/tags/Git/</loc>
+    <lastmod>2023-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/tags/struct/</loc>
     <lastmod>2023-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
