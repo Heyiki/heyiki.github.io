@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>谷歌授权使用</title>
+      <link href="/posts/755254ec.html"/>
+      <url>/posts/755254ec.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="原生html"><a href="#原生html" class="headerlink" title="原生html"></a>原生html</h3><p>在head中新增</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;https://accounts.google.com/gsi/client&quot; async&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>在body中新增 [回调uri的方式推荐]  <a href="%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%EF%BC%9Ahttps://developers.google.cn/identity/gsi/web/reference/html-reference?hl=zh-cn">详细介绍：https://developers.google.cn/identity/gsi/web/reference/html-reference?hl=zh-cn</a><br>快捷登录模式</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;g_id_onload&quot;</span><br><span class="line">     data-client_id=&quot;客户端id&quot;</span><br><span class="line">     data-context=&quot;signup&quot;</span><br><span class="line">     data-login_uri=&quot;回调uri&quot;</span><br><span class="line">     data-cancel_on_tap_outside=&quot;false&quot;</span><br><span class="line">     data-itp_support=&quot;true&quot;&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><p>另一种方式，弹窗方式：<br><a href="%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%EF%BC%9Ahttps://developers.google.cn/identity/gsi/web/reference/js-reference?hl=zh-cn">详细介绍：https://developers.google.cn/identity/gsi/web/reference/js-reference?hl=zh-cn</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line">  window.onload = function () &#123;</span><br><span class="line">    google.accounts.id.initialize(&#123;</span><br><span class="line">      client_id: &#x27;YOUR_GOOGLE_CLIENT_ID&#x27;,</span><br><span class="line">      callback: handleCredentialResponse</span><br><span class="line">    &#125;);</span><br><span class="line">    google.accounts.id.prompt();</span><br><span class="line">  &#125;;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></figure><h3 id="vue等框架使用，这里举例vue-（谷歌推荐的是授权代码模型：https-developers-google-cn-identity-oauth2-web-guides-use-code-model-hl-zh-cn-popup-mode）"><a href="#vue等框架使用，这里举例vue-（谷歌推荐的是授权代码模型：https-developers-google-cn-identity-oauth2-web-guides-use-code-model-hl-zh-cn-popup-mode）" class="headerlink" title="vue等框架使用，这里举例vue （谷歌推荐的是授权代码模型：https://developers.google.cn/identity/oauth2/web/guides/use-code-model?hl=zh-cn#popup-mode）"></a>vue等框架使用，这里举例vue （谷歌推荐的是授权代码模型：<a href="https://developers.google.cn/identity/oauth2/web/guides/use-code-model?hl=zh-cn#popup-mode）">https://developers.google.cn/identity/oauth2/web/guides/use-code-model?hl=zh-cn#popup-mode）</a></h3><p>在public目录下的index.html文件的head中新增</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;https://accounts.google.com/gsi/client&quot; async&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>对应的地方如需要自定义按钮，通过按钮点击事件触发</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">window.google.accounts.oauth2.initCodeClient(&#123;</span><br><span class="line">    client_id: that.google_auth.clientId,</span><br><span class="line">    scope: &#x27;openid profile email&#x27;,</span><br><span class="line">    include_granted_scopes: false,</span><br><span class="line">    ux_mode: &#x27;popup&#x27;,// 弹窗模式</span><br><span class="line">    callback: (response) =&gt; &#123;</span><br><span class="line">      console.log(response)</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;).requestCode();</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+          <category> Google </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> Vue </tag>
+            
+            <tag> 谷歌授权 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Golang多版本管理工具gvm&amp;g</title>
       <link href="/posts/pb9eqbou.html"/>
       <url>/posts/pb9eqbou.html</url>

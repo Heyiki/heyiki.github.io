@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2022-11-23T15:39:28.000Z</updated>
+  <updated>2023-05-22T14:24:52.578Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>谷歌授权使用</title>
+    <link href="https://www.heyiki.top/posts/755254ec.html"/>
+    <id>https://www.heyiki.top/posts/755254ec.html</id>
+    <published>2023-05-22T14:18:18.691Z</published>
+    <updated>2023-05-22T14:24:52.578Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;原生html&quot;&gt;&lt;a href=&quot;#原生html&quot; class=&quot;headerlink&quot; title=&quot;原生html&quot;&gt;&lt;/a&gt;原生html&lt;/h3&gt;&lt;p&gt;在head中新增&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="https://www.heyiki.top/categories/Vue/"/>
+    
+    <category term="Google" scheme="https://www.heyiki.top/categories/Google/"/>
+    
+    
+    <category term="HTML" scheme="https://www.heyiki.top/tags/HTML/"/>
+    
+    <category term="Vue" scheme="https://www.heyiki.top/tags/Vue/"/>
+    
+    <category term="谷歌授权" scheme="https://www.heyiki.top/tags/%E8%B0%B7%E6%AD%8C%E6%8E%88%E6%9D%83/"/>
+    
+  </entry>
   
   <entry>
     <title>Golang多版本管理工具gvm&amp;g</title>
@@ -352,7 +384,7 @@
     <link href="https://www.heyiki.top/posts/77868ba1.html"/>
     <id>https://www.heyiki.top/posts/77868ba1.html</id>
     <published>2021-03-27T20:31:17.000Z</published>
-    <updated>2023-03-15T05:42:48.236Z</updated>
+    <updated>2023-05-22T14:24:52.578Z</updated>
     
     
       
@@ -528,27 +560,6 @@
     
     
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>汇聚支付</title>
-    <link href="https://www.heyiki.top/posts/b5fb38fc.html"/>
-    <id>https://www.heyiki.top/posts/b5fb38fc.html</id>
-    <published>2020-07-12T17:13:43.000Z</published>
-    <updated>2020-07-12T17:13:43.000Z</updated>
-    
-    
-    <summary type="html">这里有东西被加密了，需要输入密码查看哦。</summary>
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="支付" scheme="https://www.heyiki.top/tags/%E6%94%AF%E4%BB%98/"/>
     
   </entry>
   
