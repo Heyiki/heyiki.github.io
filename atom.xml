@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2023-05-22T15:53:57.374Z</updated>
+  <updated>2023-05-23T13:48:34.539Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>坑：golang xorm Update为0不更新处理</title>
+    <link href="https://www.heyiki.top/posts/bfe4b216.html"/>
+    <id>https://www.heyiki.top/posts/bfe4b216.html</id>
+    <published>2023-05-23T13:46:38.194Z</published>
+    <updated>2023-05-23T13:48:34.539Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;更新数据使用Update方法，Update方法的第一个参数为需要更新的内容，可以为一个结构体指针或者一个Map[string]interface{}类型。当传入的为结构体指针时，只有非空和0的field才会被作为更新的字段。当传入的为Map类型时，key为数据库Column</summary>
+        
+      
+    
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
+    
+    <category term="xorm" scheme="https://www.heyiki.top/tags/xorm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>异步加载js的方式</title>
     <link href="https://www.heyiki.top/posts/d6ed8f1b.html"/>
     <id>https://www.heyiki.top/posts/d6ed8f1b.html</id>
     <published>2023-05-22T14:35:28.441Z</published>
-    <updated>2023-05-22T15:53:57.374Z</updated>
+    <updated>2023-05-23T13:48:34.543Z</updated>
     
     
       
@@ -48,7 +75,7 @@
     <link href="https://www.heyiki.top/posts/3f9ead7c.html"/>
     <id>https://www.heyiki.top/posts/3f9ead7c.html</id>
     <published>2023-05-22T14:27:18.588Z</published>
-    <updated>2023-05-22T15:53:57.370Z</updated>
+    <updated>2023-05-23T13:48:34.539Z</updated>
     
     
       
@@ -76,7 +103,7 @@
     <link href="https://www.heyiki.top/posts/755254ec.html"/>
     <id>https://www.heyiki.top/posts/755254ec.html</id>
     <published>2023-05-22T14:18:18.691Z</published>
-    <updated>2023-05-22T15:53:57.374Z</updated>
+    <updated>2023-05-23T13:48:34.543Z</updated>
     
     
       
@@ -439,7 +466,7 @@
     <link href="https://www.heyiki.top/posts/77868ba1.html"/>
     <id>https://www.heyiki.top/posts/77868ba1.html</id>
     <published>2021-03-27T20:31:17.000Z</published>
-    <updated>2023-05-22T15:53:57.374Z</updated>
+    <updated>2023-05-23T13:48:34.543Z</updated>
     
     
       
@@ -536,33 +563,6 @@
     <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
     
     <category term="表情符号" scheme="https://www.heyiki.top/tags/%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>TP6+消息队列</title>
-    <link href="https://www.heyiki.top/posts/fcf584c9.html"/>
-    <id>https://www.heyiki.top/posts/fcf584c9.html</id>
-    <published>2021-01-16T22:55:15.000Z</published>
-    <updated>2021-01-16T22:55:15.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;PHP消息队列&quot;&gt;&lt;a href=&quot;#PHP消息队列&quot; class=&quot;headerlink&quot; title=&quot;PHP消息队列&quot;&gt;&lt;/a&gt;PHP消息队列&lt;/h2&gt;&lt;h3 id=&quot;1、消息队列概念&quot;&gt;&lt;a href=&quot;#1、消息队列概念&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="消息队列" scheme="https://www.heyiki.top/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/"/>
     
   </entry>
   

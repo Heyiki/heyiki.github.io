@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>坑：golang xorm Update为0不更新处理</title>
+      <link href="/posts/bfe4b216.html"/>
+      <url>/posts/bfe4b216.html</url>
+      
+        <content type="html"><![CDATA[<p>更新数据使用Update方法，Update方法的第一个参数为需要更新的内容，可以为一个结构体指针或者一个Map[string]interface{}类型。当传入的为结构体指针时，只有非空和0的field才会被作为更新的字段。当传入的为Map类型时，key为数据库Column的名字，value为要更新的内容。</p><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">user := <span class="built_in">new</span>(User)</span><br><span class="line">user.Name = <span class="string">&quot;myname&quot;</span></span><br><span class="line">affected, err := engine.Id(id).Update(user)</span><br></pre></td></tr></table></figure><p>这里需要注意，Update会自动从user结构体中提取非0和非nil得值作为需要更新的内容，因此，如果需要更新一个值为0，则此种方法将无法实现，因此有两种选择：</p><ol><li>通过添加Cols函数指定需要更新结构体中的哪些值，未指定的将不更新，指定了的即使为0也会更新。</li></ol><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">affected, err := engine.Id(id).Cols(<span class="string">&quot;age&quot;</span>).Update(&amp;user)</span><br></pre></td></tr></table></figure><ol><li>通过传入map[string]interface{}来进行更新，但这时需要额外指定更新到哪个表，因为通过map是无法自动检测更新哪个表的。</li></ol><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">affected, err := engine.Table(<span class="built_in">new</span>(User)).Id(id).Update(<span class="keyword">map</span>[<span class="type">string</span>]<span class="keyword">interface</span>&#123;&#125;&#123;<span class="string">&quot;age&quot;</span>:<span class="number">0</span>&#125;)</span><br></pre></td></tr></table></figure><p>摘录：<a href="https://www.kancloud.cn/kancloud/xorm-manual-zh-cn/56025">https://www.kancloud.cn/kancloud/xorm-manual-zh-cn/56025</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Golang </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Golang </tag>
+            
+            <tag> xorm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>异步加载js的方式</title>
       <link href="/posts/d6ed8f1b.html"/>
       <url>/posts/d6ed8f1b.html</url>
