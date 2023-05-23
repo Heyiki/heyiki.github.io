@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Golang 中的 base64.DecodeString()函数示例</title>
+      <link href="/posts/35a19081.html"/>
+      <url>/posts/35a19081.html</url>
+      
+        <content type="html"><![CDATA[<p>Go 语言为 base64 编码/解码提供内置支持，并具有可用于使用 base64 包对给定数据执行操作的函数。该包提供了DecodeString()函数，用于将 base64字符串解码为其明文形式。它支持使用标准和 URL 兼容的 base64 标准进行解码。</p><p>句法：</p><figure class="highlight golang"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">func</span> <span class="params">(enc *Encoding)</span></span> DecodeString(s <span class="type">string</span>) ([]<span class="type">byte</span>, <span class="type">error</span>)</span><br></pre></td></tr></table></figure><p>与解码器一起使用的编码类型有 4 种变化：</p><ul><li>StdEncoding：它是 RFC 4648 标准定义的标准编码。</li><li>RawStdEncoding：它是 RFC 4648 标准定义的标准编码，只是省略了填充字符。</li><li>URLEncoding：它是 RFC 4648 标准定义的 URL 编码。它通常用于编码 URL 和文件名。</li><li>RawURLEncoding：它是 RFC 4648 标准定义的 URL 编码。它通常用于对 URL 和文件名进行编码，只是省略了填充字符。</li></ul><p>返回值：它返回给定 base64字符串表示的字节。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Golang </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Golang </tag>
+            
+            <tag> base64 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>坑：golang xorm Update为0不更新处理</title>
       <link href="/posts/bfe4b216.html"/>
       <url>/posts/bfe4b216.html</url>

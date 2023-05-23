@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2023-05-23T13:48:34.539Z</updated>
+  <updated>2023-05-23T13:50:17.136Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Golang 中的 base64.DecodeString()函数示例</title>
+    <link href="https://www.heyiki.top/posts/35a19081.html"/>
+    <id>https://www.heyiki.top/posts/35a19081.html</id>
+    <published>2023-05-23T13:48:59.585Z</published>
+    <updated>2023-05-23T13:50:17.136Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Go 语言为 base64 编码/解码提供内置支持，并具有可用于使用 base64 包对给定数据执行操作的函数。该包提供了DecodeString()函数，用于将 base64字符串解码为其明文形式。它支持使用标准和 URL 兼容的 base64</summary>
+        
+      
+    
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
+    
+    <category term="base64" scheme="https://www.heyiki.top/tags/base64/"/>
+    
+  </entry>
+  
+  <entry>
     <title>坑：golang xorm Update为0不更新处理</title>
     <link href="https://www.heyiki.top/posts/bfe4b216.html"/>
     <id>https://www.heyiki.top/posts/bfe4b216.html</id>
     <published>2023-05-23T13:46:38.194Z</published>
-    <updated>2023-05-23T13:48:34.539Z</updated>
+    <updated>2023-05-23T13:50:17.136Z</updated>
     
     
       
@@ -48,7 +75,7 @@
     <link href="https://www.heyiki.top/posts/d6ed8f1b.html"/>
     <id>https://www.heyiki.top/posts/d6ed8f1b.html</id>
     <published>2023-05-22T14:35:28.441Z</published>
-    <updated>2023-05-23T13:48:34.543Z</updated>
+    <updated>2023-05-23T13:50:17.140Z</updated>
     
     
       
@@ -75,7 +102,7 @@
     <link href="https://www.heyiki.top/posts/3f9ead7c.html"/>
     <id>https://www.heyiki.top/posts/3f9ead7c.html</id>
     <published>2023-05-22T14:27:18.588Z</published>
-    <updated>2023-05-23T13:48:34.539Z</updated>
+    <updated>2023-05-23T13:50:17.136Z</updated>
     
     
       
@@ -103,7 +130,7 @@
     <link href="https://www.heyiki.top/posts/755254ec.html"/>
     <id>https://www.heyiki.top/posts/755254ec.html</id>
     <published>2023-05-22T14:18:18.691Z</published>
-    <updated>2023-05-23T13:48:34.543Z</updated>
+    <updated>2023-05-23T13:50:17.140Z</updated>
     
     
       
@@ -466,7 +493,7 @@
     <link href="https://www.heyiki.top/posts/77868ba1.html"/>
     <id>https://www.heyiki.top/posts/77868ba1.html</id>
     <published>2021-03-27T20:31:17.000Z</published>
-    <updated>2023-05-23T13:48:34.543Z</updated>
+    <updated>2023-05-23T13:50:17.140Z</updated>
     
     
       
@@ -535,34 +562,6 @@
     
     
     <category term="JWT" scheme="https://www.heyiki.top/tags/JWT/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MySQL数据库为utf8mb4编码仍然无法保存表情符号的问题</title>
-    <link href="https://www.heyiki.top/posts/8c25726d.html"/>
-    <id>https://www.heyiki.top/posts/8c25726d.html</id>
-    <published>2021-02-13T22:47:16.000Z</published>
-    <updated>2021-02-13T22:47:16.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;解决方案&quot;&gt;&lt;a href=&quot;#解决方案&quot; class=&quot;headerlink&quot; title=&quot;解决方案&quot;&gt;&lt;/a&gt;解决方案&lt;/h2&gt;&lt;p&gt;修改MySQL配置文件&lt;/p&gt;
-&lt;p&gt;修改mysql配置文件my.cnf（windows为my.ini）</summary>
-        
-      
-    
-    
-    
-    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
-    
-    
-    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
-    
-    <category term="表情符号" scheme="https://www.heyiki.top/tags/%E8%A1%A8%E6%83%85%E7%AC%A6%E5%8F%B7/"/>
     
   </entry>
   
