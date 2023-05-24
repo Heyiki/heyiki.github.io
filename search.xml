@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>一次性邮箱列表</title>
+      <link href="/posts/e469bd5c.html"/>
+      <url>/posts/e469bd5c.html</url>
+      
+        <content type="html"><![CDATA[<p>市面上的邮箱校验价格有些许贵，而且暂时所需的功能暂时不用那么多，为了避免部分使用一次性邮箱占用内存空间，在github找到这个（有不定期更新）</p><p><a href="https://disposable.github.io/disposable-email-domains/domains.json">https://disposable.github.io/disposable-email-domains/domains.json</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 邮箱 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 一次性邮箱 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Golang 中的 base64.DecodeString()函数示例</title>
       <link href="/posts/35a19081.html"/>
       <url>/posts/35a19081.html</url>

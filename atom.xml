@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2023-05-23T16:16:56.463Z</updated>
+  <updated>2023-05-24T14:30:06.334Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一次性邮箱列表</title>
+    <link href="https://www.heyiki.top/posts/e469bd5c.html"/>
+    <id>https://www.heyiki.top/posts/e469bd5c.html</id>
+    <published>2023-05-24T14:25:39.689Z</published>
+    <updated>2023-05-24T14:30:06.334Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;市面上的邮箱校验价格有些许贵，而且暂时所需的功能暂时不用那么多，为了避免部分使用一次性邮箱占用内存空间，在github找到这个（有不定期更新）&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="邮箱" scheme="https://www.heyiki.top/categories/%E9%82%AE%E7%AE%B1/"/>
+    
+    
+    <category term="一次性邮箱" scheme="https://www.heyiki.top/tags/%E4%B8%80%E6%AC%A1%E6%80%A7%E9%82%AE%E7%AE%B1/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Golang 中的 base64.DecodeString()函数示例</title>
     <link href="https://www.heyiki.top/posts/35a19081.html"/>
     <id>https://www.heyiki.top/posts/35a19081.html</id>
     <published>2023-05-23T13:48:59.585Z</published>
-    <updated>2023-05-23T16:16:56.463Z</updated>
+    <updated>2023-05-24T14:30:06.330Z</updated>
     
     
       
@@ -48,7 +74,7 @@
     <link href="https://www.heyiki.top/posts/bfe4b216.html"/>
     <id>https://www.heyiki.top/posts/bfe4b216.html</id>
     <published>2023-05-23T13:46:38.194Z</published>
-    <updated>2023-05-23T16:16:56.463Z</updated>
+    <updated>2023-05-24T14:30:06.330Z</updated>
     
     
       
@@ -75,7 +101,7 @@
     <link href="https://www.heyiki.top/posts/d6ed8f1b.html"/>
     <id>https://www.heyiki.top/posts/d6ed8f1b.html</id>
     <published>2023-05-22T14:35:28.441Z</published>
-    <updated>2023-05-23T16:16:56.467Z</updated>
+    <updated>2023-05-24T14:30:06.334Z</updated>
     
     
       
@@ -102,7 +128,7 @@
     <link href="https://www.heyiki.top/posts/3f9ead7c.html"/>
     <id>https://www.heyiki.top/posts/3f9ead7c.html</id>
     <published>2023-05-22T14:27:18.588Z</published>
-    <updated>2023-05-23T16:16:56.463Z</updated>
+    <updated>2023-05-24T14:30:06.330Z</updated>
     
     
       
@@ -130,7 +156,7 @@
     <link href="https://www.heyiki.top/posts/755254ec.html"/>
     <id>https://www.heyiki.top/posts/755254ec.html</id>
     <published>2023-05-22T14:18:18.691Z</published>
-    <updated>2023-05-23T16:16:56.467Z</updated>
+    <updated>2023-05-24T14:30:06.334Z</updated>
     
     
       
@@ -493,7 +519,7 @@
     <link href="https://www.heyiki.top/posts/77868ba1.html"/>
     <id>https://www.heyiki.top/posts/77868ba1.html</id>
     <published>2021-03-27T20:31:17.000Z</published>
-    <updated>2023-05-23T16:16:56.467Z</updated>
+    <updated>2023-05-24T14:30:06.334Z</updated>
     
     
       
@@ -542,26 +568,6 @@
     <category term="Guzzle" scheme="https://www.heyiki.top/tags/Guzzle/"/>
     
     <category term="HTTP" scheme="https://www.heyiki.top/tags/HTTP/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JWT -- JSON WEB TOKEN</title>
-    <link href="https://www.heyiki.top/posts/630da3d8.html"/>
-    <id>https://www.heyiki.top/posts/630da3d8.html</id>
-    <published>2021-03-07T01:23:23.000Z</published>
-    <updated>2021-03-07T01:23:23.000Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;什么是JWT&quot;&gt;&lt;a href=&quot;#什么是JWT&quot; class=&quot;headerlink&quot; title=&quot;什么是JWT&quot;&gt;&lt;/a&gt;什么是JWT&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://jwt.io/introduction&quot;&gt;JWT官网&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;JSON Web Token（JWT）是一个开放标准（RFC 7519），该token被设计为紧凑且安全的，特别适用于分布式站点的单点登录（SSO）场景。JWT的声明一般被用来在身份提供者和服务提供者间传递被认证的用户身份信息，以便于从资源服务器获取资源，也可以增加一些额外的其它业务逻辑所必须的声明信息，该token也可直接被用于认证，也可被加密。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="JWT" scheme="https://www.heyiki.top/categories/JWT/"/>
-    
-    
-    <category term="JWT" scheme="https://www.heyiki.top/tags/JWT/"/>
     
   </entry>
   
