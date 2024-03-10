@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.heyiki.top/tags/index.html</loc>
+    
+    <lastmod>2024-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.heyiki.top/posts/e469bd5c.html</loc>
     
     <lastmod>2024-03-10</lastmod>
@@ -48,15 +57,6 @@
   
   <url>
     <loc>https://www.heyiki.top/fcircle/index.html</loc>
-    
-    <lastmod>2024-03-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/tags/index.html</loc>
     
     <lastmod>2024-03-10</lastmod>
     
@@ -605,20 +605,6 @@
 
   
   <url>
-    <loc>https://www.heyiki.top/tags/Hexo/</loc>
-    <lastmod>2024-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.heyiki.top/tags/%E5%8F%A8%E5%8F%A8/</loc>
-    <lastmod>2024-03-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://www.heyiki.top/tags/Ajax/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -627,6 +613,20 @@
   
   <url>
     <loc>https://www.heyiki.top/tags/PHP/</loc>
+    <lastmod>2024-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/tags/Hexo/</loc>
+    <lastmod>2024-03-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.heyiki.top/tags/%E5%8F%A8%E5%8F%A8/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1034,14 +1034,14 @@
 
   
   <url>
-    <loc>https://www.heyiki.top/categories/Hexo/</loc>
+    <loc>https://www.heyiki.top/categories/PHP/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.heyiki.top/categories/PHP/</loc>
+    <loc>https://www.heyiki.top/categories/Hexo/</loc>
     <lastmod>2024-03-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
