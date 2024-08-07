@@ -6,7 +6,7 @@
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   
   <link href="https://www.heyiki.top/"/>
-  <updated>2024-06-30T07:38:38.317Z</updated>
+  <updated>2024-08-07T15:48:31.255Z</updated>
   <id>https://www.heyiki.top/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Disposable Email Verifier 进行一次性邮件验证</title>
+    <link href="https://www.heyiki.top/posts/443a7741.html"/>
+    <id>https://www.heyiki.top/posts/443a7741.html</id>
+    <published>2024-08-07T15:39:32.822Z</published>
+    <updated>2024-08-07T15:48:31.255Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在今天的互联网环境中，垃圾邮件和虚假注册是常见的问题。为了应对这些挑战，我们可以使用一次性邮件验证工具来确保电子邮件地址的有效性。 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
+    
+    <category term="邮箱" scheme="https://www.heyiki.top/categories/%E9%82%AE%E7%AE%B1/"/>
+    
+    
+    <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
+    
+    <category term="Disposable Email" scheme="https://www.heyiki.top/tags/Disposable-Email/"/>
+    
+    <category term="一次性邮件" scheme="https://www.heyiki.top/tags/%E4%B8%80%E6%AC%A1%E6%80%A7%E9%82%AE%E4%BB%B6/"/>
+    
+    <category term="验证" scheme="https://www.heyiki.top/tags/%E9%AA%8C%E8%AF%81/"/>
+    
+  </entry>
+  
+  <entry>
     <title>golang使用protobuf</title>
     <link href="https://www.heyiki.top/posts/8c5a24c7.html"/>
     <id>https://www.heyiki.top/posts/8c5a24c7.html</id>
     <published>2023-08-30T14:56:59.295Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.251Z</updated>
     
     
       
@@ -54,7 +87,7 @@
     <link href="https://www.heyiki.top/posts/12a146bb.html"/>
     <id>https://www.heyiki.top/posts/12a146bb.html</id>
     <published>2023-06-06T13:10:03.843Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.251Z</updated>
     
     
       
@@ -83,7 +116,7 @@
     <link href="https://www.heyiki.top/posts/fb2ef2c2.html"/>
     <id>https://www.heyiki.top/posts/fb2ef2c2.html</id>
     <published>2023-05-25T14:18:43.612Z</published>
-    <updated>2024-06-30T07:38:38.313Z</updated>
+    <updated>2024-08-07T15:48:31.251Z</updated>
     
     
       
@@ -113,7 +146,7 @@
     <link href="https://www.heyiki.top/posts/e469bd5c.html"/>
     <id>https://www.heyiki.top/posts/e469bd5c.html</id>
     <published>2023-05-24T14:25:39.689Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.255Z</updated>
     
     
       
@@ -139,7 +172,7 @@
     <link href="https://www.heyiki.top/posts/35a19081.html"/>
     <id>https://www.heyiki.top/posts/35a19081.html</id>
     <published>2023-05-23T13:48:59.585Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.251Z</updated>
     
     
       
@@ -166,7 +199,7 @@
     <link href="https://www.heyiki.top/posts/bfe4b216.html"/>
     <id>https://www.heyiki.top/posts/bfe4b216.html</id>
     <published>2023-05-23T13:46:38.194Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.251Z</updated>
     
     
       
@@ -193,7 +226,7 @@
     <link href="https://www.heyiki.top/posts/d6ed8f1b.html"/>
     <id>https://www.heyiki.top/posts/d6ed8f1b.html</id>
     <published>2023-05-22T14:35:28.441Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.255Z</updated>
     
     
       
@@ -220,7 +253,7 @@
     <link href="https://www.heyiki.top/posts/3f9ead7c.html"/>
     <id>https://www.heyiki.top/posts/3f9ead7c.html</id>
     <published>2023-05-22T14:27:18.588Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.251Z</updated>
     
     
       
@@ -248,7 +281,7 @@
     <link href="https://www.heyiki.top/posts/755254ec.html"/>
     <id>https://www.heyiki.top/posts/755254ec.html</id>
     <published>2023-05-22T14:18:18.691Z</published>
-    <updated>2024-06-30T07:38:38.317Z</updated>
+    <updated>2024-08-07T15:48:31.255Z</updated>
     
     
       
@@ -543,35 +576,6 @@
     <category term="Hexo" scheme="https://www.heyiki.top/tags/Hexo/"/>
     
     <category term="叨叨" scheme="https://www.heyiki.top/tags/%E5%8F%A8%E5%8F%A8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>腾讯云直播配置</title>
-    <link href="https://www.heyiki.top/posts/6dc66cce.html"/>
-    <id>https://www.heyiki.top/posts/6dc66cce.html</id>
-    <published>2021-03-29T23:32:14.000Z</published>
-    <updated>2022-11-23T23:37:05.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
-    <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
-    <category term="直播" scheme="https://www.heyiki.top/tags/%E7%9B%B4%E6%92%AD/"/>
-    
-    <category term="腾讯云直播" scheme="https://www.heyiki.top/tags/%E8%85%BE%E8%AE%AF%E4%BA%91%E7%9B%B4%E6%92%AD/"/>
     
   </entry>
   

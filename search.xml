@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>Disposable Email Verifier 进行一次性邮件验证</title>
+      <link href="/posts/443a7741.html"/>
+      <url>/posts/443a7741.html</url>
+      
+        <content type="html"><![CDATA[<p>在今天的互联网环境中，垃圾邮件和虚假注册是常见的问题。为了应对这些挑战，我们可以使用一次性邮件验证工具来确保电子邮件地址的有效性。 <a href="https://github.com/Heyiki/disposable-email-verifier">Disposable Email Verifier</a> 是一个用于验证电子邮件是否为一次性邮件服务提供商（如 TempMail、Mailinator 等）地址的开源工具。本文将介绍如何使用这个工具进行一次性邮件验证。</p><h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>Disposable Email Verifier 是一个用 Golang 编写的项目，旨在识别和过滤一次性邮件地址。一次性邮件地址通常用于临时注册和避免垃圾邮件，因此在很多应用中需要进行过滤，以保证用户注册的邮箱真实有效。</p><h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul><li>支持多种一次性邮件服务提供商的识别。</li><li>轻量级且易于集成。</li><li>高效的邮箱验证机制。</li></ul><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><ul><li><strong>一次性电子邮件检查</strong>：验证电子邮件地址是否来自一次性电子邮件提供商。</li><li><strong>速率限制</strong>：支持每日请求限制以防止滥用。</li><li><strong>自动域更新</strong>：定期更新一次性电子邮件域列表。</li></ul><h2 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h2><ul><li>Go 1.18 或更高版本</li><li>用于部署的 Vercel 帐户</li></ul><h2 id="数据源"><a href="#数据源" class="headerlink" title="数据源"></a>数据源</h2><p><a href="https://github.com/disposable/disposable-email-domains">https://github.com/disposable/disposable-email-domains</a></p><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h3 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h3><p><code>REQUEST_LIMIT</code>：（可选）设置每天允许的最大请求数。如果未设置，则默认为 20。</p><h2 id="用法"><a href="#用法" class="headerlink" title="用法"></a>用法</h2><h3 id="验证一次性电子邮件"><a href="#验证一次性电子邮件" class="headerlink" title="验证一次性电子邮件"></a>验证一次性电子邮件</h3><p>使用电子邮件查询参数向 /verify 端点发送 GET 请求：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl &quot;https://your-project-name.vercel.app/verify?email=example@example.com&quot;</span><br></pre></td></tr></table></figure><p>将 your-project-name 替换为您的 Vercel 项目名称。</p><h3 id="响应"><a href="#响应" class="headerlink" title="响应"></a>响应</h3><p>API 将使用 JSON 对象进行响应，指示电子邮件地址是否是一次性的：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">&quot;code&quot;: 200,</span><br><span class="line">&quot;data&quot;: &#123;</span><br><span class="line">&quot;disposable&quot;: true</span><br><span class="line">&#125;,</span><br><span class="line">&quot;msg&quot;: &quot;success&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="测试链接"><a href="#测试链接" class="headerlink" title="测试链接"></a>测试链接</h3><p>使用浏览器访问</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://disposable-email-verifier.vercel.app/verify?email=example@0-180.com</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Golang </category>
+          
+          <category> 邮箱 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Golang </tag>
+            
+            <tag> Disposable Email </tag>
+            
+            <tag> 一次性邮件 </tag>
+            
+            <tag> 验证 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>golang使用protobuf</title>
       <link href="/posts/8c5a24c7.html"/>
       <url>/posts/8c5a24c7.html</url>
