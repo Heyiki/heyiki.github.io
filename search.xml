@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Nginx安装nginx-http-concat模块方法</title>
+      <link href="/posts/feb4a903.html"/>
+      <url>/posts/feb4a903.html</url>
+      
+        <content type="html"><![CDATA[<p>nginx-http-concat 是一个用于合并多个 CSS/JS 文件的 Nginx 模块，类似于 Apache 的 mod_concat。可以避免一个页面加载多个js或css导致页面加载耗时较长。</p><p>nginx-http-concat是阿里云开发的nginx开源组件，可以在nginx编译安装时添加模块，也可以在已安装的nginx中重新添加模块。</p><h2 id="对已安装的Nginx添加nginx-http-concat模块"><a href="#对已安装的Nginx添加nginx-http-concat模块" class="headerlink" title="对已安装的Nginx添加nginx-http-concat模块"></a>对已安装的Nginx添加nginx-http-concat模块</h2><p>已安装的nginx添加module，需要重新进行编译覆盖，这点与apache不同，apache只需要添加module，然后添加引用即可。</p><ol><li>添加nginx编译脚本<ol><li>查看当前nginx版本，命令：<code>/usr/local/sbin/nginx -v</code></li><li>下载相应的nginx源码版本，地址：<a href="http://nginx.org/download/">http://nginx.org/download/</a></li><li>上传到服务器并解压</li></ol></li><li>添加nginx-http-concat源码<ol><li>下载module，git地址：<a href="https://github.com/alibaba/nginx-http-concat">https://github.com/alibaba/nginx-http-concat</a></li><li>上传到服务器并解压，本实验解压地址：<code>/usr/local/nginx/third\_module/nginx-http-concat</code></li></ol></li><li>执行重新编译<ol><li>查看当前nginx编译参数，执行命令：<code>/usr/local/sbin/nginx -V</code></li><li>进入nginx源码目录，在获取的编译参数中添加：<code>--add-module=/usr/local/nginx/thrid\_module/nginx-http-concat</code>，执行添加后的命令，如：<code>./configure --user=www --group=www --prefix=/usr/local/nginx --with-http\_stub\_status\_module --with-http\_ssl\_module --with-http\_spdy\_module --with-http\_gzip\_static\_module --with-ipv6 --with-http\_sub\_module --add-module=/usr/local/nginx/third\_module/nginx-http-concat</code></li><li>执行编译命令：<code>make</code>，注意编译之后千万不能执行make install</li><li>编译完后，当前nginx源码目录下生成objs目录则说明编译成功</li></ol></li><li>覆盖nginx执行脚本<ol><li>备份当前nginx执行脚本，命令：<code>cp /usr/local/nginx/sbin/nginx /usr/local/nginx/sbin/nginx.bak</code>。如果拷贝出错，则将nginx进行杀掉再进行，命令：<code>killall nginx</code></li><li>拷贝上一步骤编译后的新nginx脚本，命令：<code>cp /mnw/download/nginx-1.8.0/objs/nginx /usr/local/nginx/sbin/</code></li><li>查看编译参数，命令：<code>/usr/local/nginx/sbin/nginx -V</code>，如果编译参数中存在刚添加的模块，则说明编译成功</li><li>重启nginx</li></ol></li></ol><h2 id="配置使用nginx-http-concat模块"><a href="#配置使用nginx-http-concat模块" class="headerlink" title="配置使用nginx-http-concat模块"></a>配置使用nginx-http-concat模块</h2><ol><li><p>配置项</p><ul><li><strong>concat</strong>，是否打开资源合并开关，选项：on | off，默认：off</li><li><strong>concat_types</strong>，模块处理的资源类型，默认：text/css application/x-javascript</li><li><strong>concat_unique</strong>，是否允许合并不同类型的资源，选项：on | off，默认：on</li><li><strong>concat_max_files</strong>，允许合并的最大资源数目，默认：10</li><li><strong>concat_delimiter</strong>，合并后的文件内容分隔符，用于区分不同文件的内容</li><li><strong>concat_ignore_file_error</strong>，是否忽略404或403错误，选项：on | off，默认：off</li></ul></li><li><p>配置实例</p><ul><li><p>nginx添加配置</p><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">location</span> /static/css/ &#123;</span><br><span class="line">    <span class="attribute">concat</span> <span class="literal">on</span>;</span><br><span class="line">    <span class="attribute">concat_delimiter</span> /* my file */; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li>重启nginx，命令：<code>/usr/local/nginx/sbin/nginx -s reload</code></li><li>创建测试文件，在web目录下创建/static/css目录，并创建文件a.css、b.css，内容随意。</li><li>请求地址：<code>http://localhost/my-web/static/css??a.css,b.css</code>，如看到返回a.css、b.css合并内容，则整个配置完成。注意，url中static/css目录必须真实存在，且a.css与b.css必须位于此目录中。</li></ul></li></ol><p>原文参考：<a href="https://www.cnblogs.com/hanganglin/p/5670210.html">https://www.cnblogs.com/hanganglin/p/5670210.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Nginx </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Nginx </tag>
+            
+            <tag> nginx-http-concat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Disposable Email Verifier 进行一次性邮件验证</title>
       <link href="/posts/443a7741.html"/>
       <url>/posts/443a7741.html</url>
