@@ -1,581 +1,351 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>小Q同学</title>
-  <icon>https://www.heyiki.top/icon.png</icon>
-  
-  <link href="https://www.heyiki.top/atom.xml" rel="self"/>
-  
-  <link href="https://www.heyiki.top/"/>
-  <updated>2025-04-09T16:00:16.404Z</updated>
-  <id>https://www.heyiki.top/</id>
-  
   <author>
     <name>Heyiki</name>
-    
   </author>
-  
   <generator uri="https://hexo.io/">Hexo</generator>
-  
+  <icon>https://www.heyiki.top/icon.png</icon>
+  <id>https://www.heyiki.top/</id>
+  <link href="https://www.heyiki.top/" rel="alternate"/>
+  <link href="https://www.heyiki.top/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, Heyiki</rights>
+  <subtitle>本博客通过hexo+butterfly主题搭建，主要PHP、Golang、Vue、MySql等技术分享，互联网干货分享、学习笔记记录、博客搭建分享。</subtitle>
+  <title>小Q同学</title>
+  <updated>2026-10-12T15:12:16.243Z</updated>
   <entry>
-    <title>Nginx安装nginx-http-concat模块方法</title>
-    <link href="https://www.heyiki.top/posts/feb4a903.html"/>
-    <id>https://www.heyiki.top/posts/feb4a903.html</id>
-    <published>2025-04-09T15:28:36.080Z</published>
-    <updated>2025-04-09T16:00:16.404Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;nginx-http-concat 是一个用于合并多个 CSS/JS 文件的 Nginx 模块，类似于 Apache 的</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Nginx" scheme="https://www.heyiki.top/categories/Nginx/"/>
-    
-    
     <category term="Nginx" scheme="https://www.heyiki.top/tags/Nginx/"/>
-    
     <category term="nginx-http-concat" scheme="https://www.heyiki.top/tags/nginx-http-concat/"/>
-    
+    <id>https://www.heyiki.top/posts/feb4a903.html</id>
+    <link href="https://www.heyiki.top/posts/feb4a903.html"/>
+    <published>2025-04-09T15:28:36.080Z</published>
+    <summary>
+      <![CDATA[<p>nginx-http-concat 是一个用于合并多个 CSS&#x2F;JS 文件的 Nginx 模块，类似于 Apache 的]]>
+    </summary>
+    <title>Nginx安装nginx-http-concat模块方法</title>
+    <updated>2026-10-12T15:12:16.243Z</updated>
   </entry>
-  
   <entry>
-    <title>Disposable Email Verifier 进行一次性邮件验证</title>
-    <link href="https://www.heyiki.top/posts/443a7741.html"/>
-    <id>https://www.heyiki.top/posts/443a7741.html</id>
-    <published>2024-08-07T15:39:32.822Z</published>
-    <updated>2025-04-09T16:00:16.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在今天的互联网环境中，垃圾邮件和虚假注册是常见的问题。为了应对这些挑战，我们可以使用一次性邮件验证工具来确保电子邮件地址的有效性。 &lt;a</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
     <category term="邮箱" scheme="https://www.heyiki.top/categories/%E9%82%AE%E7%AE%B1/"/>
-    
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
     <category term="Disposable Email" scheme="https://www.heyiki.top/tags/Disposable-Email/"/>
-    
     <category term="一次性邮件" scheme="https://www.heyiki.top/tags/%E4%B8%80%E6%AC%A1%E6%80%A7%E9%82%AE%E4%BB%B6/"/>
-    
     <category term="验证" scheme="https://www.heyiki.top/tags/%E9%AA%8C%E8%AF%81/"/>
-    
+    <id>https://www.heyiki.top/posts/443a7741.html</id>
+    <link href="https://www.heyiki.top/posts/443a7741.html"/>
+    <published>2024-08-07T15:39:32.822Z</published>
+    <summary>
+      <![CDATA[<p>在今天的互联网环境中，垃圾邮件和虚假注册是常见的问题。为了应对这些挑战，我们可以使用一次性邮件验证工具来确保电子邮件地址的有效性。 <a]]>
+    </summary>
+    <title>Disposable Email Verifier 进行一次性邮件验证</title>
+    <updated>2026-10-12T15:12:16.245Z</updated>
   </entry>
-  
   <entry>
-    <title>golang使用protobuf</title>
-    <link href="https://www.heyiki.top/posts/8c5a24c7.html"/>
-    <id>https://www.heyiki.top/posts/8c5a24c7.html</id>
-    <published>2023-08-30T14:56:59.295Z</published>
-    <updated>2025-04-09T16:00:16.405Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;下载地址&quot;&gt;&lt;a href=&quot;#下载地址&quot; class=&quot;headerlink&quot; title=&quot;下载地址&quot;&gt;&lt;/a&gt;下载地址&lt;/h4&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
     <category term="微服务" scheme="https://www.heyiki.top/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
-    
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
     <category term="protobuf" scheme="https://www.heyiki.top/tags/protobuf/"/>
-    
     <category term="protoc" scheme="https://www.heyiki.top/tags/protoc/"/>
-    
     <category term="微服务" scheme="https://www.heyiki.top/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
-    
+    <id>https://www.heyiki.top/posts/8c5a24c7.html</id>
+    <link href="https://www.heyiki.top/posts/8c5a24c7.html"/>
+    <published>2023-08-30T14:56:59.295Z</published>
+    <summary>
+      <![CDATA[<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p><a]]>
+    </summary>
+    <title>golang使用protobuf</title>
+    <updated>2026-10-12T15:12:16.244Z</updated>
   </entry>
-  
   <entry>
-    <title>js文件上传中file、bolb、base64图片之间的相互转化</title>
-    <link href="https://www.heyiki.top/posts/12a146bb.html"/>
-    <id>https://www.heyiki.top/posts/12a146bb.html</id>
-    <published>2023-06-06T13:10:03.843Z</published>
-    <updated>2025-04-09T16:00:16.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;介绍-file-文件流-、bolb-本地流-、base64-二进制流&quot;&gt;&lt;a href=&quot;#介绍-file-文件流-、bolb-本地流-、base64-二进制流&quot; class=&quot;headerlink&quot; title=&quot;介绍</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="前端" scheme="https://www.heyiki.top/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
     <category term="Javascript" scheme="https://www.heyiki.top/tags/Javascript/"/>
-    
     <category term="文件流" scheme="https://www.heyiki.top/tags/%E6%96%87%E4%BB%B6%E6%B5%81/"/>
-    
     <category term="上传" scheme="https://www.heyiki.top/tags/%E4%B8%8A%E4%BC%A0/"/>
-    
+    <id>https://www.heyiki.top/posts/12a146bb.html</id>
+    <link href="https://www.heyiki.top/posts/12a146bb.html"/>
+    <published>2023-06-06T13:10:03.843Z</published>
+    <summary>
+      <![CDATA[<h4 id="介绍-file-文件流-、bolb-本地流-、base64-二进制流"><a href="#介绍-file-文件流-、bolb-本地流-、base64-二进制流" class="headerlink" title="介绍]]>
+    </summary>
+    <title>js文件上传中file、bolb、base64图片之间的相互转化</title>
+    <updated>2026-10-12T15:12:16.245Z</updated>
   </entry>
-  
   <entry>
-    <title>Golang Gin框架的路由使用</title>
-    <link href="https://www.heyiki.top/posts/fb2ef2c2.html"/>
-    <id>https://www.heyiki.top/posts/fb2ef2c2.html</id>
-    <published>2023-05-25T14:18:43.612Z</published>
-    <updated>2025-04-09T16:00:16.404Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;在 Gin 框架中，路由是指 Web 应用程序中的 URL。Gin 框架中的路由定义了客户端请求的 URL 和处理该请求的函数之间的映射关系。Gin 框架支持多种类型的路由，包括 GET、POST、PUT、DELETE 等，可以根据需要进行选择。&lt;/p&gt;
-&lt;h3</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
     <category term="Gin框架" scheme="https://www.heyiki.top/tags/Gin%E6%A1%86%E6%9E%B6/"/>
-    
     <category term="路由" scheme="https://www.heyiki.top/tags/%E8%B7%AF%E7%94%B1/"/>
-    
+    <id>https://www.heyiki.top/posts/fb2ef2c2.html</id>
+    <link href="https://www.heyiki.top/posts/fb2ef2c2.html"/>
+    <published>2023-05-25T14:18:43.612Z</published>
+    <summary>
+      <![CDATA[<p>在 Gin 框架中，路由是指 Web 应用程序中的 URL。Gin 框架中的路由定义了客户端请求的 URL 和处理该请求的函数之间的映射关系。Gin 框架支持多种类型的路由，包括 GET、POST、PUT、DELETE 等，可以根据需要进行选择。</p>
+<h3]]>
+    </summary>
+    <title>Golang Gin框架的路由使用</title>
+    <updated>2026-10-12T15:12:16.243Z</updated>
   </entry>
-  
   <entry>
-    <title>一次性邮箱列表</title>
-    <link href="https://www.heyiki.top/posts/e469bd5c.html"/>
-    <id>https://www.heyiki.top/posts/e469bd5c.html</id>
-    <published>2023-05-24T14:25:39.689Z</published>
-    <updated>2025-04-09T16:00:16.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;市面上的邮箱校验价格有些许贵，而且暂时所需的功能暂时不用那么多，为了避免部分使用一次性邮箱占用内存空间，在github找到这个（有不定期更新）&lt;/p&gt;
-&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="邮箱" scheme="https://www.heyiki.top/categories/%E9%82%AE%E7%AE%B1/"/>
-    
-    
     <category term="一次性邮箱" scheme="https://www.heyiki.top/tags/%E4%B8%80%E6%AC%A1%E6%80%A7%E9%82%AE%E7%AE%B1/"/>
-    
+    <id>https://www.heyiki.top/posts/e469bd5c.html</id>
+    <link href="https://www.heyiki.top/posts/e469bd5c.html"/>
+    <published>2023-05-24T14:25:39.689Z</published>
+    <summary>
+      <![CDATA[<p>市面上的邮箱校验价格有些许贵，而且暂时所需的功能暂时不用那么多，为了避免部分使用一次性邮箱占用内存空间，在github找到这个（有不定期更新）</p>
+<p><a]]>
+    </summary>
+    <title>一次性邮箱列表</title>
+    <updated>2026-10-12T15:12:16.245Z</updated>
   </entry>
-  
   <entry>
-    <title>Golang 中的 base64.DecodeString()函数示例</title>
-    <link href="https://www.heyiki.top/posts/35a19081.html"/>
-    <id>https://www.heyiki.top/posts/35a19081.html</id>
-    <published>2023-05-23T13:48:59.585Z</published>
-    <updated>2025-04-09T16:00:16.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Go 语言为 base64 编码/解码提供内置支持，并具有可用于使用 base64 包对给定数据执行操作的函数。该包提供了DecodeString()函数，用于将 base64字符串解码为其明文形式。它支持使用标准和 URL 兼容的 base64</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
     <category term="base64" scheme="https://www.heyiki.top/tags/base64/"/>
-    
+    <id>https://www.heyiki.top/posts/35a19081.html</id>
+    <link href="https://www.heyiki.top/posts/35a19081.html"/>
+    <published>2023-05-23T13:48:59.585Z</published>
+    <summary>
+      <![CDATA[<p>Go 语言为 base64 编码&#x2F;解码提供内置支持，并具有可用于使用 base64 包对给定数据执行操作的函数。该包提供了DecodeString()函数，用于将 base64字符串解码为其明文形式。它支持使用标准和 URL 兼容的 base64]]>
+    </summary>
+    <title>Golang 中的 base64.DecodeString()函数示例</title>
+    <updated>2026-10-12T15:12:16.244Z</updated>
   </entry>
-  
   <entry>
-    <title>坑：golang xorm Update为0不更新处理</title>
-    <link href="https://www.heyiki.top/posts/bfe4b216.html"/>
-    <id>https://www.heyiki.top/posts/bfe4b216.html</id>
-    <published>2023-05-23T13:46:38.194Z</published>
-    <updated>2025-04-09T16:00:16.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;更新数据使用Update方法，Update方法的第一个参数为需要更新的内容，可以为一个结构体指针或者一个Map[string]interface{}类型。当传入的为结构体指针时，只有非空和0的field才会被作为更新的字段。当传入的为Map类型时，key为数据库Column</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
     <category term="xorm" scheme="https://www.heyiki.top/tags/xorm/"/>
-    
+    <id>https://www.heyiki.top/posts/bfe4b216.html</id>
+    <link href="https://www.heyiki.top/posts/bfe4b216.html"/>
+    <published>2023-05-23T13:46:38.194Z</published>
+    <summary>
+      <![CDATA[<p>更新数据使用Update方法，Update方法的第一个参数为需要更新的内容，可以为一个结构体指针或者一个Map[string]interface{}类型。当传入的为结构体指针时，只有非空和0的field才会被作为更新的字段。当传入的为Map类型时，key为数据库Column]]>
+    </summary>
+    <title>坑：golang xorm Update为0不更新处理</title>
+    <updated>2026-10-12T15:12:16.244Z</updated>
   </entry>
-  
   <entry>
-    <title>异步加载js的方式</title>
-    <link href="https://www.heyiki.top/posts/d6ed8f1b.html"/>
-    <id>https://www.heyiki.top/posts/d6ed8f1b.html</id>
-    <published>2023-05-22T14:35:28.441Z</published>
-    <updated>2025-04-09T16:00:16.407Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;异步加载js的三种方式&quot;&gt;&lt;a href=&quot;#异步加载js的三种方式&quot; class=&quot;headerlink&quot; title=&quot;异步加载js的三种方式&quot;&gt;&lt;/a&gt;异步加载js的三种方式&lt;/h3&gt;&lt;h4 id=&quot;1-defer-异步加载&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="前端" scheme="https://www.heyiki.top/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
     <category term="Javascript" scheme="https://www.heyiki.top/tags/Javascript/"/>
-    
     <category term="异步加载" scheme="https://www.heyiki.top/tags/%E5%BC%82%E6%AD%A5%E5%8A%A0%E8%BD%BD/"/>
-    
+    <id>https://www.heyiki.top/posts/d6ed8f1b.html</id>
+    <link href="https://www.heyiki.top/posts/d6ed8f1b.html"/>
+    <published>2023-05-22T14:35:28.441Z</published>
+    <summary>
+      <![CDATA[<h3 id="异步加载js的三种方式"><a href="#异步加载js的三种方式" class="headerlink" title="异步加载js的三种方式"></a>异步加载js的三种方式</h3><h4 id="1-defer-异步加载"><a]]>
+    </summary>
+    <title>异步加载js的方式</title>
+    <updated>2026-10-12T15:12:16.245Z</updated>
   </entry>
-  
   <entry>
-    <title>golang使用结构标签启用具有默认值的结构</title>
-    <link href="https://www.heyiki.top/posts/3f9ead7c.html"/>
-    <id>https://www.heyiki.top/posts/3f9ead7c.html</id>
-    <published>2023-05-22T14:27:18.588Z</published>
-    <updated>2025-04-09T16:00:16.406Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/mcuadros/go-defaults&quot;&gt;https://github.com/mcuadros/go-defaults&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&quot;效果&quot;&gt;&lt;a href=&quot;#效果&quot;</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
     <category term="struct" scheme="https://www.heyiki.top/tags/struct/"/>
-    
+    <id>https://www.heyiki.top/posts/3f9ead7c.html</id>
+    <link href="https://www.heyiki.top/posts/3f9ead7c.html"/>
+    <published>2023-05-22T14:27:18.588Z</published>
+    <summary>
+      <![CDATA[<p><a href="https://github.com/mcuadros/go-defaults">https://github.com/mcuadros/go-defaults</a></p>
+<h4 id="效果"><a href="#效果"]]>
+    </summary>
+    <title>golang使用结构标签启用具有默认值的结构</title>
+    <updated>2026-10-12T15:12:16.244Z</updated>
   </entry>
-  
   <entry>
-    <title>谷歌授权使用</title>
-    <link href="https://www.heyiki.top/posts/755254ec.html"/>
-    <id>https://www.heyiki.top/posts/755254ec.html</id>
-    <published>2023-05-22T14:18:18.691Z</published>
-    <updated>2025-04-09T16:00:16.408Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;原生html&quot;&gt;&lt;a href=&quot;#原生html&quot; class=&quot;headerlink&quot; title=&quot;原生html&quot;&gt;&lt;/a&gt;原生html&lt;/h3&gt;&lt;p&gt;在head中新增&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Vue" scheme="https://www.heyiki.top/categories/Vue/"/>
-    
     <category term="Google" scheme="https://www.heyiki.top/categories/Google/"/>
-    
-    
     <category term="HTML" scheme="https://www.heyiki.top/tags/HTML/"/>
-    
     <category term="Vue" scheme="https://www.heyiki.top/tags/Vue/"/>
-    
     <category term="谷歌授权" scheme="https://www.heyiki.top/tags/%E8%B0%B7%E6%AD%8C%E6%8E%88%E6%9D%83/"/>
-    
+    <id>https://www.heyiki.top/posts/755254ec.html</id>
+    <link href="https://www.heyiki.top/posts/755254ec.html"/>
+    <published>2023-05-22T14:18:18.691Z</published>
+    <summary>
+      <![CDATA[<h3 id="原生html"><a href="#原生html" class="headerlink" title="原生html"></a>原生html</h3><p>在head中新增</p>
+<figure class="highlight]]>
+    </summary>
+    <title>谷歌授权使用</title>
+    <updated>2026-10-12T15:12:16.246Z</updated>
   </entry>
-  
   <entry>
-    <title>Golang多版本管理工具gvm&amp;g</title>
-    <link href="https://www.heyiki.top/posts/pb9eqbou.html"/>
-    <id>https://www.heyiki.top/posts/pb9eqbou.html</id>
-    <published>2022-11-23T15:39:29.000Z</published>
-    <updated>2022-11-23T15:39:28.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;安装包下载地址&quot;&gt;&lt;a href=&quot;#安装包下载地址&quot; class=&quot;headerlink&quot; title=&quot;安装包下载地址&quot;&gt;&lt;/a&gt;安装包下载地址&lt;/h3&gt;&lt;p&gt;1.gitee上的gvm：&lt;a</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
     <category term="版本管理" scheme="https://www.heyiki.top/tags/%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86/"/>
-    
     <category term="工具" scheme="https://www.heyiki.top/tags/%E5%B7%A5%E5%85%B7/"/>
-    
+    <id>https://www.heyiki.top/posts/pb9eqbou.html</id>
+    <link href="https://www.heyiki.top/posts/pb9eqbou.html"/>
+    <published>2022-11-23T15:39:29.000Z</published>
+    <summary>
+      <![CDATA[<h3 id="安装包下载地址"><a href="#安装包下载地址" class="headerlink" title="安装包下载地址"></a>安装包下载地址</h3><p>1.gitee上的gvm：<a]]>
+    </summary>
+    <title>
+      <![CDATA[Golang多版本管理工具gvm&g]]>
+    </title>
+    <updated>2022-11-23T15:39:28.000Z</updated>
   </entry>
-  
   <entry>
-    <title>golang处理emoji表情转码解码</title>
-    <link href="https://www.heyiki.top/posts/374365d7.html"/>
+    <author>
+      <name>Heyiki</name>
+    </author>
+    <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
+    <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
     <id>https://www.heyiki.top/posts/374365d7.html</id>
+    <link href="https://www.heyiki.top/posts/374365d7.html"/>
     <published>2022-09-10T17:57:40.000Z</published>
+    <summary>
+      <![CDATA[<h4 id="golang处理emoji表情转码解码"><a href="#golang处理emoji表情转码解码" class="headerlink"]]>
+    </summary>
+    <title>golang处理emoji表情转码解码</title>
     <updated>2022-09-10T17:57:40.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;golang处理emoji表情转码解码&quot;&gt;&lt;a href=&quot;#golang处理emoji表情转码解码&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
-    <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
   </entry>
-  
   <entry>
-    <title>wps专业版激活终身授权</title>
-    <link href="https://www.heyiki.top/posts/2a5073c4.html"/>
-    <id>https://www.heyiki.top/posts/2a5073c4.html</id>
-    <published>2021-07-10T12:33:14.000Z</published>
-    <updated>2021-07-10T12:33:14.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;WPS专业版激活终身授权&quot;&gt;&lt;a href=&quot;#WPS专业版激活终身授权&quot; class=&quot;headerlink&quot; title=&quot;WPS专业版激活终身授权&quot;&gt;&lt;/a&gt;WPS专业版激活终身授权&lt;/h4&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="WPS" scheme="https://www.heyiki.top/categories/WPS/"/>
-    
-    
     <category term="WPS" scheme="https://www.heyiki.top/tags/WPS/"/>
-    
     <category term="终身授权" scheme="https://www.heyiki.top/tags/%E7%BB%88%E8%BA%AB%E6%8E%88%E6%9D%83/"/>
-    
+    <id>https://www.heyiki.top/posts/2a5073c4.html</id>
+    <link href="https://www.heyiki.top/posts/2a5073c4.html"/>
+    <published>2021-07-10T12:33:14.000Z</published>
+    <summary>
+      <![CDATA[<h4 id="WPS专业版激活终身授权"><a href="#WPS专业版激活终身授权" class="headerlink" title="WPS专业版激活终身授权"></a>WPS专业版激活终身授权</h4><p><a]]>
+    </summary>
+    <title>wps专业版激活终身授权</title>
+    <updated>2021-07-10T12:33:14.000Z</updated>
   </entry>
-  
   <entry>
-    <title>宝塔Linux面板-安装golang环境</title>
-    <link href="https://www.heyiki.top/posts/ae24e9bf.html"/>
-    <id>https://www.heyiki.top/posts/ae24e9bf.html</id>
-    <published>2021-06-29T22:51:14.000Z</published>
-    <updated>2021-06-29T22:51:14.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;获取go安装包&quot;&gt;&lt;a href=&quot;#获取go安装包&quot; class=&quot;headerlink&quot; title=&quot;获取go安装包&quot;&gt;&lt;/a&gt;获取go安装包&lt;/h4&gt;&lt;p&gt;官网：&lt;a</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="Golang" scheme="https://www.heyiki.top/categories/Golang/"/>
-    
-    
-    <category term="Linux" scheme="https://www.heyiki.top/tags/Linux/"/>
-    
     <category term="Golang" scheme="https://www.heyiki.top/tags/Golang/"/>
-    
+    <category term="Linux" scheme="https://www.heyiki.top/tags/Linux/"/>
+    <id>https://www.heyiki.top/posts/ae24e9bf.html</id>
+    <link href="https://www.heyiki.top/posts/ae24e9bf.html"/>
+    <published>2021-06-29T22:51:14.000Z</published>
+    <summary>
+      <![CDATA[<h4 id="获取go安装包"><a href="#获取go安装包" class="headerlink" title="获取go安装包"></a>获取go安装包</h4><p>官网：<a]]>
+    </summary>
+    <title>宝塔Linux面板-安装golang环境</title>
+    <updated>2021-06-29T22:51:14.000Z</updated>
   </entry>
-  
   <entry>
-    <title>TP6+Swoole配置使用</title>
-    <link href="https://www.heyiki.top/posts/71660b7e.html"/>
-    <id>https://www.heyiki.top/posts/71660b7e.html</id>
-    <published>2021-06-28T21:36:40.000Z</published>
-    <updated>2021-06-28T21:36:40.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;由于当前使用&lt;code&gt;php7.2版本&lt;/code&gt;，默认使用&lt;code&gt;composer&lt;/code&gt;安装&lt;code&gt;swoole&lt;/code&gt;的时候会自动安装&lt;code&gt;3.x&lt;/code&gt;版本。&lt;/p&gt;
-&lt;p&gt;服务器的扩展安装这里不介绍，另</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
     <category term="Swoole" scheme="https://www.heyiki.top/tags/Swoole/"/>
-    
     <category term="ThinkPHP6" scheme="https://www.heyiki.top/tags/ThinkPHP6/"/>
-    
+    <id>https://www.heyiki.top/posts/71660b7e.html</id>
+    <link href="https://www.heyiki.top/posts/71660b7e.html"/>
+    <published>2021-06-28T21:36:40.000Z</published>
+    <summary>
+      <![CDATA[<blockquote>
+<p>由于当前使用<code>php7.2版本</code>，默认使用<code>composer</code>安装<code>swoole</code>的时候会自动安装<code>3.x</code>版本。</p>
+<p>服务器的扩展安装这里不介绍，另]]>
+    </summary>
+    <title>TP6+Swoole配置使用</title>
+    <updated>2021-06-28T21:36:40.000Z</updated>
   </entry>
-  
   <entry>
-    <title>文件排他锁解决小型并发</title>
-    <link href="https://www.heyiki.top/posts/955aadbe.html"/>
-    <id>https://www.heyiki.top/posts/955aadbe.html</id>
-    <published>2021-06-17T12:25:14.000Z</published>
-    <updated>2021-06-17T12:25:14.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;众所周知，并发容易造成数据重复处理或者商品超卖等等情况；</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
     <category term="排他锁" scheme="https://www.heyiki.top/tags/%E6%8E%92%E4%BB%96%E9%94%81/"/>
-    
     <category term="并发" scheme="https://www.heyiki.top/tags/%E5%B9%B6%E5%8F%91/"/>
-    
+    <id>https://www.heyiki.top/posts/955aadbe.html</id>
+    <link href="https://www.heyiki.top/posts/955aadbe.html"/>
+    <published>2021-06-17T12:25:14.000Z</published>
+    <summary>
+      <![CDATA[<p>众所周知，并发容易造成数据重复处理或者商品超卖等等情况；]]>
+    </summary>
+    <title>文件排他锁解决小型并发</title>
+    <updated>2021-06-17T12:25:14.000Z</updated>
   </entry>
-  
   <entry>
-    <title>Navicat备份数据库出现 show_compatibility_56 相关错误</title>
-    <link href="https://www.heyiki.top/posts/ab7eafc8.html"/>
+    <author>
+      <name>Heyiki</name>
+    </author>
+    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
+    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
     <id>https://www.heyiki.top/posts/ab7eafc8.html</id>
+    <link href="https://www.heyiki.top/posts/ab7eafc8.html"/>
     <published>2021-06-03T23:56:36.000Z</published>
+    <summary>
+      <![CDATA[<h4 id="数据库备份错误问题"><a href="#数据库备份错误问题" class="headerlink" title="数据库备份错误问题"></a>数据库备份错误问题</h4><p>备份数据库出现：<code>3167 - The]]>
+    </summary>
+    <title>Navicat备份数据库出现 show_compatibility_56 相关错误</title>
     <updated>2021-06-03T23:56:36.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h4 id=&quot;数据库备份错误问题&quot;&gt;&lt;a href=&quot;#数据库备份错误问题&quot; class=&quot;headerlink&quot; title=&quot;数据库备份错误问题&quot;&gt;&lt;/a&gt;数据库备份错误问题&lt;/h4&gt;&lt;p&gt;备份数据库出现：&lt;code&gt;3167 - The</summary>
-        
-      
-    
-    
-    
-    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
-    
-    
-    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
-    
   </entry>
-  
   <entry>
-    <title>解决MySQL5.7.5及以上group by报错的问题</title>
-    <link href="https://www.heyiki.top/posts/36e17204.html"/>
+    <author>
+      <name>Heyiki</name>
+    </author>
+    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
+    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
     <id>https://www.heyiki.top/posts/36e17204.html</id>
+    <link href="https://www.heyiki.top/posts/36e17204.html"/>
     <published>2021-05-21T21:55:00.000Z</published>
+    <summary>
+      <![CDATA[<h3 id="MySQL5-7-5及以上-group-by-报错问题"><a href="#MySQL5-7-5及以上-group-by-报错问题" class="headerlink" title="MySQL5.7.5及以上 group by]]>
+    </summary>
+    <title>解决MySQL5.7.5及以上group by报错的问题</title>
     <updated>2021-05-21T21:55:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;MySQL5-7-5及以上-group-by-报错问题&quot;&gt;&lt;a href=&quot;#MySQL5-7-5及以上-group-by-报错问题&quot; class=&quot;headerlink&quot; title=&quot;MySQL5.7.5及以上 group by</summary>
-        
-      
-    
-    
-    
-    <category term="Mysql" scheme="https://www.heyiki.top/categories/Mysql/"/>
-    
-    
-    <category term="Mysql" scheme="https://www.heyiki.top/tags/Mysql/"/>
-    
   </entry>
-  
   <entry>
-    <title>PHP:curl error 60:SSL 的错误解决方法</title>
-    <link href="https://www.heyiki.top/posts/1c29d3e3.html"/>
-    <id>https://www.heyiki.top/posts/1c29d3e3.html</id>
-    <published>2021-04-03T00:14:22.000Z</published>
-    <updated>2021-04-03T00:14:22.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;接口请求报错：PHP：cURL error 60: SSL certificate unable to get local issuer certificate</summary>
-        
-      
-    
-    
-    
+    <author>
+      <name>Heyiki</name>
+    </author>
     <category term="PHP" scheme="https://www.heyiki.top/categories/PHP/"/>
-    
-    
     <category term="PHP" scheme="https://www.heyiki.top/tags/PHP/"/>
-    
     <category term="CURL" scheme="https://www.heyiki.top/tags/CURL/"/>
-    
+    <id>https://www.heyiki.top/posts/1c29d3e3.html</id>
+    <link href="https://www.heyiki.top/posts/1c29d3e3.html"/>
+    <published>2021-04-03T00:14:22.000Z</published>
+    <summary>
+      <![CDATA[<p>接口请求报错：PHP：cURL error 60: SSL certificate unable to get local issuer certificate]]>
+    </summary>
+    <title>PHP:curl error 60:SSL 的错误解决方法</title>
+    <updated>2021-04-03T00:14:22.000Z</updated>
   </entry>
-  
 </feed>
