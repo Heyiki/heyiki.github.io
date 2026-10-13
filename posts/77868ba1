@@ -1,0 +1,308 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>解决 GitHub 访问不了 | 小Q同学</title><meta name="author" content="Heyiki"><meta name="copyright" content="Heyiki"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="GitHub是一个面向开源及私有软件项目的托管平台，我们可以寻找大佬们开源的代码以及部署个人的代码。   最近Github时常无法访问，也不是网络的原因，这让人有点烦恼，最后在网上找了一些解决方法，如下操作（windows系统为例子）：  注意一点：win10用户，hosts文件都是有权限的，所以会出现保存失败。关于设置图在最低下 打开 C:\Windows\System32\drivers\e">
+<meta property="og:type" content="article">
+<meta property="og:title" content="解决 GitHub 访问不了">
+<meta property="og:url" content="https://www.heyiki.top/posts/77868ba1">
+<meta property="og:site_name" content="小Q同学">
+<meta property="og:description" content="GitHub是一个面向开源及私有软件项目的托管平台，我们可以寻找大佬们开源的代码以及部署个人的代码。   最近Github时常无法访问，也不是网络的原因，这让人有点烦恼，最后在网上找了一些解决方法，如下操作（windows系统为例子）：  注意一点：win10用户，hosts文件都是有权限的，所以会出现保存失败。关于设置图在最低下 打开 C:\Windows\System32\drivers\e">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://npm.elemecdn.com/heyiki-cdn/img/cover-img-3.jpg">
+<meta property="article:published_time" content="2021-03-27T12:31:17.000Z">
+<meta property="article:modified_time" content="2026-10-13T12:13:37.845Z">
+<meta property="article:author" content="Heyiki">
+<meta property="article:tag" content="Github">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://npm.elemecdn.com/heyiki-cdn/img/cover-img-3.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "解决 GitHub 访问不了",
+  "url": "https://www.heyiki.top/posts/77868ba1",
+  "image": "https://npm.elemecdn.com/heyiki-cdn/img/cover-img-3.jpg",
+  "datePublished": "2021-03-27T12:31:17.000Z",
+  "dateModified": "2026-10-13T12:13:37.845Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Heyiki",
+      "url": "https://www.heyiki.top"
+    }
+  ]
+}</script><link rel="shortcut icon" href="https://npm.elemecdn.com/heyiki-cdn/img/favicon.ico"><link rel="canonical" href="https://www.heyiki.top/posts/77868ba1"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="code-V42xZeRrgV"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        const data = { value }
+
+        if (ttl != null) {
+          data.expiry = Date.now() + ttl * 86400000
+        }
+
+        localStorage.setItem(key, JSON.stringify(data))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return
+
+        try {
+          const data = JSON.parse(itemStr)
+
+          if (data.expiry && Date.now() > data.expiry) {
+            localStorage.removeItem(key)
+            return
+          }
+
+          return data.value
+        } catch {
+          localStorage.removeItem(key)
+        }
+      }
+    }
+
+    const scriptCache = new Map()
+    const cssCache = new Map()
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => {
+        if (scriptCache.has(url)) {
+          return scriptCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const script = document.createElement('script')
+
+          script.src = url
+          script.async = true
+
+          for (const key in attr) {
+            script.setAttribute(key, attr[key])
+          }
+
+          script.onload = resolve
+          script.onerror = reject
+
+          document.head.appendChild(script)
+        })
+
+        scriptCache.set(url, promise)
+
+        return promise
+      },
+      getCSS: (url, id) => {
+        if (cssCache.has(url)) {
+          return cssCache.get(url)
+        }
+
+        const promise = new Promise((resolve, reject) => {
+          const link = document.createElement('link')
+
+          link.rel = 'stylesheet'
+          link.href = url
+
+          if (id) {
+            link.id = id
+          }
+
+          link.onload = resolve
+          link.onerror = reject
+
+          document.head.appendChild(link)
+        })
+
+        cssCache.set(url, promise)
+
+        return promise
+      },
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const metaThemeColor = document.querySelector('meta[name="theme-color"]')
+      const activateDarkMode = () => {
+        document.documentElement.dataset.theme = 'dark'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.dataset.theme = 'light'
+        if (metaThemeColor !== null) {
+          metaThemeColor.setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const mediaQueryDark = window.matchMedia('(prefers-color-scheme: dark)')
+          const mediaQueryLight = window.matchMedia('(prefers-color-scheme: light)')
+
+          if (theme === undefined) {
+            if (mediaQueryLight.matches) activateLightMode()
+            else if (mediaQueryDark.matches) activateDarkMode()
+            else {
+              const hour = new Date().getHours()
+              const start = 6
+              const end = 18
+              const isNight =
+                start < end
+                    ? hour < start || hour >= end
+                    : hour >= start || hour < end
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            mediaQueryDark.addEventListener('change', e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else {
+            theme === 'light' ? activateLightMode() : activateDarkMode()
+          }
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?34dc42da0822617328fc96fb4fa9df86";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+btf.addGlobalFn('pjaxComplete', () => {
+  _hmt.push(['_trackPageview',window.location.pathname])
+}, 'baidu_analytics')
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.json","preload":true,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200,"highlightFullpage":true,"highlightMacStyle":true},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '解决 GitHub 访问不了',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="https://npm.elemecdn.com/heyiki-cdn/css/background.css"><script type="text/javascript" src="https://npm.elemecdn.com/heyiki-cdn/js/baidu.js"></script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="小Q同学" type="application/atom+xml">
+</head><body><div class="bg-animation" id="web_bg" style="background-image: url(https://npm.elemecdn.com/heyiki-cdn/img/web-background.webp);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/heyiki-cdn/img/avatar.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">62</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">66</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa-fw fa fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-link"></i><span> 友链</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-external-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/fcircle/"><i class="fa-fw fas fa-users"></i><span> 朋友圈</span></a></li><li><a class="site-page child" href="/tools/"><i class="fa-fw fas fa-wrench"></i><span> 工具</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-fw fas fa-lightbulb"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://qexo.heyiki.top"><i class="fa-fw fas fa-user-circle"></i><span> 后台</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">小Q同学</span></a><a class="nav-page-title" href="/"><span class="site-name">解决 GitHub 访问不了</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa-fw fa fa-book"></i><span> 文章</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-link"></i><span> 友链</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-external-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/fcircle/"><i class="fa-fw fas fa-users"></i><span> 朋友圈</span></a></li><li><a class="site-page child" href="/tools/"><i class="fa-fw fas fa-wrench"></i><span> 工具</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fa-fw fas fa-lightbulb"></i><span> 关于</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener external nofollow noreferrer" href="https://qexo.heyiki.top"><i class="fa-fw fas fa-user-circle"></i><span> 后台</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">解决 GitHub 访问不了</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2021-03-27T12:31:17.000Z" title="发表于 2021-03-27 20:31:17">2021-03-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Git/">Git</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">339</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/77868ba1#post-comment"><span id="twikoo-count"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div><article class="container post-content" id="article-container"><div id="post-outdate-notice" data="{&quot;limitDay&quot;:365,&quot;messagePrev&quot;:&quot;已经过了&quot;,&quot;messageNext&quot;:&quot;天自上次更新，文章内容可能已过时。&quot;,&quot;postUpdate&quot;:&quot;2026-10-13 20:13:37&quot;}" hidden></div><blockquote>
+<p>GitHub是一个面向开源及私有软件项目的托管平台，我们可以寻找大佬们开源的代码以及部署个人的代码。</p>
+</blockquote>
+<blockquote>
+<p>最近Github时常无法访问，也不是网络的原因，这让人有点烦恼，最后在网上找了一些解决方法，如下操作（windows系统为例子）：</p>
+</blockquote>
+<p><em>注意一点：win10用户，hosts文件都是有权限的，所以会出现保存失败。关于设置图在最低下</em></p>
+<p>打开 <code>C:\Windows\System32\drivers\etc\hosts</code> 输入以下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">185.199.108.154               github.githubassets.com</span><br><span class="line">140.82.114.21                 central.github.com</span><br><span class="line">185.199.108.133               desktop.githubusercontent.com</span><br><span class="line">185.199.108.153               assets-cdn.github.com</span><br><span class="line">185.199.108.133               camo.githubusercontent.com</span><br><span class="line">185.199.108.133               github.map.fastly.net</span><br><span class="line">199.232.69.194                github.global.ssl.fastly.net</span><br><span class="line">140.82.113.4                  gist.github.com</span><br><span class="line">185.199.108.153               github.io</span><br><span class="line">140.82.114.3                  github.com</span><br><span class="line">140.82.113.5                  api.github.com</span><br><span class="line">185.199.108.133               raw.githubusercontent.com</span><br><span class="line">185.199.108.133               user-images.githubusercontent.com</span><br><span class="line">185.199.108.133               favicons.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars5.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars4.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars3.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars2.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars1.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars0.githubusercontent.com</span><br><span class="line">185.199.108.133               avatars.githubusercontent.com</span><br><span class="line">140.82.113.10                 codeload.github.com</span><br><span class="line">52.216.226.40                 github-cloud.s3.amazonaws.com</span><br><span class="line">52.216.162.99                 github-com.s3.amazonaws.com</span><br><span class="line">52.216.142.196                github-production-release-asset-2e65be.s3.amazonaws.com</span><br><span class="line">52.217.97.236                 github-production-user-asset-6210df.s3.amazonaws.com</span><br><span class="line">52.217.194.41                 github-production-repository-file-5c1aeb.s3.amazonaws.com</span><br><span class="line">185.199.108.153               githubstatus.com</span><br><span class="line">64.71.168.201                 github.community</span><br><span class="line">185.199.108.133               media.githubusercontent.com</span><br></pre></td></tr></table></figure>
+
+<p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/heyiki-cdn/img/github-host-1.png"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://www.heyiki.top">Heyiki</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://www.heyiki.top/posts/77868ba1">https://www.heyiki.top/posts/77868ba1</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="https://www.heyiki.top" target="_blank">小Q同学</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Github/">Github</a></div><div class="post-share"><div class="social-share" data-image="https://npm.elemecdn.com/heyiki-cdn/img/cover-img-3.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related" href="/posts/fba3a87a" title="宝塔使用webhook实现conding代码自动部署"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/heyiki-cdn/img/cover-img-4.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="info"><div class="info-1"><div class="info-item-1">上一篇</div><div class="info-item-2">宝塔使用webhook实现conding代码自动部署</div></div><div class="info-2"><div class="info-item-1">安装和配置WebHook 打开宝塔软件商店，安装WebHook，安装好点击设置-添加-输入名称-添加脚本代码。（注意脚本代码第16行需要替换）   脚本代码如下 1234567891011121314151617181920212223242526272829303132333435363738#!/bin/bashecho &quot;&quot;# 输出当前时间date --date=&#x27;0 days ago&#x27; &quot;+%Y-%m-%d %H:%M:%S&quot;echo &quot;Start&quot;# 判断宝塔WebHook参数是否存在if [ ! -n &quot;$1&quot; ];then           echo &quot;param参数错误&quot;          echo &quot;End&quot;          exitfi# git项目路径（这里需要配置，$1为运行传入脚本的第一个参数，coding那边配置）gitPath=&quot;/www/wwwroot/$1&quot;# git 网址（ssh的地...</div></div></div></a><a class="pagination-related" href="/posts/592498db" title="使用Guzzle执行HTTP请求"><img class="cover" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/heyiki-cdn/img/cover-img-4.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">使用Guzzle执行HTTP请求</div></div><div class="info-2"><div class="info-item-1">由于最近对第三方api需求量高的原因，不同的api对于curl请求稍微有点出入，而且多了显得代码冗余，为了整合统一请求调用，就开始使用Guzzle。 Guzzle介绍Guzzle是一个PHP的HTTP客户端，用来轻而易举地发送请求，并集成到我们的WEB服务上。Guzzle中文文档  接口简单：构建查询语句、POST请求、分流上传下载大文件、使用HTTP cookies、上传JSON数据等等。 发送同步或异步的请求均使用相同的接口。 使用PSR-7接口来请求、响应、分流，允许你使用其他兼容的PSR-7类库与Guzzle共同开发。 抽象了底层的HTTP传输，允许你改变环境以及其他的代码，如：对cURL与PHP的流或socket并非重度依赖，非阻塞事件循环。 中间件系统允许你创建构成客户端行为。  安装一般情况下，TP框架都会自带有，无需安装，如果没有的话，Composer安装 composer require guzzlehttp/guzzle 使用基本的使用方法就不写了，可以直接到 Guzzle 查看文档，更详细。 注意：当我们使用form_params做键时，Guzzle会把pa...</div></div></div></a></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://npm.elemecdn.com/heyiki-cdn/img/avatar.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Heyiki</div><div class="author-info-description">梦在旅途，永不止步。</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">62</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">66</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">19</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/Heyiki"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://gitee.com/Heyiki" rel="external nofollow noreferrer" target="_blank" title="Gitee"><i class="fa fa-link"></i></a><a class="social-icon" href="mailto:1186933877@qq.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1186933877&amp;site=qq&amp;menu=yes" rel="external nofollow noreferrer" target="_blank" title="联系我"><i class="fab fa-qq"></i></a><a class="social-icon" href="/atom.xml" target="_blank" title="SSR"><i class="fa fa-rss"></i></a></div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/feb4a903" title="Nginx安装nginx-http-concat模块方法">Nginx安装nginx-http-concat模块方法</a><time datetime="2025-04-09T15:28:36.080Z" title="发表于 2025-04-09 23:28:36">2025-04-09</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/443a7741" title="Disposable Email Verifier 进行一次性邮件验证">Disposable Email Verifier 进行一次性邮件验证</a><time datetime="2024-08-07T15:39:32.822Z" title="发表于 2024-08-07 23:39:32">2024-08-07</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/8c5a24c7" title="golang使用protobuf">golang使用protobuf</a><time datetime="2023-08-30T14:56:59.295Z" title="发表于 2023-08-30 22:56:59">2023-08-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/12a146bb" title="js文件上传中file、bolb、base64图片之间的相互转化">js文件上传中file、bolb、base64图片之间的相互转化</a><time datetime="2023-06-06T13:10:03.843Z" title="发表于 2023-06-06 21:10:03">2023-06-06</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/posts/fb2ef2c2" title="Golang Gin框架的路由使用">Golang Gin框架的路由使用</a><time datetime="2023-05-25T14:18:43.612Z" title="发表于 2023-05-25 22:18:43">2023-05-25</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2018 - 2026 By Heyiki</span></div><div class="footer_custom_text"><p><a style="margin-inline:5px" rel="external nofollow" target="_blank" href="https://hexo.io/"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a><a style="margin-inline:5px" rel="external nofollow" target="_blank" href="https://butterfly.js.org/"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a><a style="margin-inline:5px" rel="external nofollow" target="_blank" href="https://www.jsdelivr.com/"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a><a style="margin-inline:5px" rel="external nofollow" target="_blank" href="https://github.com/"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a><a style="margin-inline:5px" rel="external nofollow" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.heyiki.top',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = (el = document, path = location.pathname) => {
+    twikoo.init({
+      el: el.querySelector('#twikoo-wrap'),
+      envId: 'https://twikoo.heyiki.top',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      },
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || path
+    })
+
+    GLOBAL_CONFIG_SITE.pageType === 'post' && getCount()
+
+    isShuoshuo && (window.shuoshuoComment.destroyTwikoo = () => {
+      if (el.children.length) {
+        el.innerHTML = ''
+        el.classList.add('no-comment')
+      }
+    })
+  }
+
+  const loadTwikoo = (el, path) => {
+    if (typeof twikoo === 'object') setTimeout(() => init(el, path), 0)
+    else btf.getScript('https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js').then(() => init(el, path))
+  }
+
+  if (isShuoshuo) {
+    'Twikoo' === 'Twikoo'
+      ? window.shuoshuoComment = { loadComment: loadTwikoo }
+      : window.loadOtherComment = loadTwikoo
+    return
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
