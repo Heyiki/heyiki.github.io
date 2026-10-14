@@ -9,9 +9,9 @@
   <link href="https://www.heyiki.top/" rel="alternate"/>
   <link href="https://www.heyiki.top/atom.xml" rel="self"/>
   <rights>All rights reserved 2026, Heyiki</rights>
-  <subtitle>本博客通过hexo+butterfly主题搭建，主要PHP、Golang、Vue、MySql等技术分享，互联网干货分享、学习笔记记录、博客搭建分享。</subtitle>
+  <subtitle>本博客通过hexo+butterfly主题搭建，主要AI、Agent、MCP、PHP、Golang、Vue、MySql等全栈技术分享，互联网干货分享、学习笔记记录、博客搭建分享。</subtitle>
   <title>小Q同学</title>
-  <updated>2026-10-14T02:14:18.702Z</updated>
+  <updated>2026-10-14T13:22:02.728Z</updated>
   <entry>
     <author>
       <name>Heyiki</name>
@@ -26,7 +26,7 @@
       <![CDATA[<p>nginx-http-concat 是一个用于合并多个 CSS&#x2F;JS 文件的 Nginx 模块，类似于 Apache 的]]>
     </summary>
     <title>Nginx安装nginx-http-concat模块方法</title>
-    <updated>2026-10-14T02:14:18.702Z</updated>
+    <updated>2026-10-14T13:22:02.728Z</updated>
   </entry>
   <entry>
     <author>
@@ -45,7 +45,7 @@
       <![CDATA[<p>在今天的互联网环境中，垃圾邮件和虚假注册是常见的问题。为了应对这些挑战，我们可以使用一次性邮件验证工具来确保电子邮件地址的有效性。 <a]]>
     </summary>
     <title>Disposable Email Verifier 进行一次性邮件验证</title>
-    <updated>2026-10-14T02:14:18.704Z</updated>
+    <updated>2026-10-14T13:22:02.729Z</updated>
   </entry>
   <entry>
     <author>
@@ -64,7 +64,7 @@
       <![CDATA[<h4 id="下载地址"><a href="#下载地址" class="headerlink" title="下载地址"></a>下载地址</h4><p><a]]>
     </summary>
     <title>golang使用protobuf</title>
-    <updated>2026-10-14T02:14:18.703Z</updated>
+    <updated>2026-10-14T13:22:02.728Z</updated>
   </entry>
   <entry>
     <author>
@@ -81,7 +81,7 @@
       <![CDATA[<h4 id="介绍-file-文件流-、bolb-本地流-、base64-二进制流"><a href="#介绍-file-文件流-、bolb-本地流-、base64-二进制流" class="headerlink" title="介绍]]>
     </summary>
     <title>js文件上传中file、bolb、base64图片之间的相互转化</title>
-    <updated>2026-10-14T02:14:18.704Z</updated>
+    <updated>2026-10-14T13:22:02.728Z</updated>
   </entry>
   <entry>
     <author>
@@ -99,7 +99,7 @@
 <h3]]>
     </summary>
     <title>Golang Gin框架的路由使用</title>
-    <updated>2026-10-14T02:14:18.702Z</updated>
+    <updated>2026-10-14T13:22:02.728Z</updated>
   </entry>
   <entry>
     <author>
@@ -115,7 +115,7 @@
 <p><a]]>
     </summary>
     <title>一次性邮箱列表</title>
-    <updated>2026-10-14T02:14:18.704Z</updated>
+    <updated>2026-10-14T13:22:02.729Z</updated>
   </entry>
   <entry>
     <author>
@@ -131,7 +131,7 @@
       <![CDATA[<p>Go 语言为 base64 编码&#x2F;解码提供内置支持，并具有可用于使用 base64 包对给定数据执行操作的函数。该包提供了DecodeString()函数，用于将 base64字符串解码为其明文形式。它支持使用标准和 URL 兼容的 base64]]>
     </summary>
     <title>Golang 中的 base64.DecodeString()函数示例</title>
-    <updated>2026-10-14T02:14:18.703Z</updated>
+    <updated>2026-10-14T13:22:02.728Z</updated>
   </entry>
   <entry>
     <author>
@@ -147,7 +147,7 @@
       <![CDATA[<p>更新数据使用Update方法，Update方法的第一个参数为需要更新的内容，可以为一个结构体指针或者一个Map[string]interface{}类型。当传入的为结构体指针时，只有非空和0的field才会被作为更新的字段。当传入的为Map类型时，key为数据库Column]]>
     </summary>
     <title>坑：golang xorm Update为0不更新处理</title>
-    <updated>2026-10-14T02:14:18.703Z</updated>
+    <updated>2026-10-14T13:22:02.728Z</updated>
   </entry>
   <entry>
     <author>
@@ -163,7 +163,7 @@
       <![CDATA[<h3 id="异步加载js的三种方式"><a href="#异步加载js的三种方式" class="headerlink" title="异步加载js的三种方式"></a>异步加载js的三种方式</h3><h4 id="1-defer-异步加载"><a]]>
     </summary>
     <title>异步加载js的方式</title>
-    <updated>2026-10-14T02:14:18.705Z</updated>
+    <updated>2026-10-14T13:22:02.729Z</updated>
   </entry>
   <entry>
     <author>
@@ -180,7 +180,7 @@
 <h4 id="效果"><a href="#效果"]]>
     </summary>
     <title>golang使用结构标签启用具有默认值的结构</title>
-    <updated>2026-10-14T02:14:18.703Z</updated>
+    <updated>2026-10-14T13:22:02.728Z</updated>
   </entry>
   <entry>
     <author>
@@ -199,7 +199,7 @@
 <figure class="highlight]]>
     </summary>
     <title>谷歌授权使用</title>
-    <updated>2026-10-14T02:14:18.705Z</updated>
+    <updated>2026-10-14T13:22:02.729Z</updated>
   </entry>
   <entry>
     <author>
